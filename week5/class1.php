@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="CSS/style.css">g
 <?php
 
 echo "hello world"; //echo means print

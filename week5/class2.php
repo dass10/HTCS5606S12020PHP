@@ -24,12 +24,12 @@ echo  strlen($grating). "<br>";
 
 echo str_word_count($grating). "<br>";
 // string reverse
-echo strrev($grating). "string reverse<br>";
+echo strrev($grating). " string reverse<br>";
 // string string position
-echo strpos($grating, "hello")."word position<br>";
+echo strpos($grating, "hello")." word position<br>";
 //string replace
-echo  str_replace($grating, "hello", "byebye")."word replace<br>";
+echo  str_replace($grating, "hello", "byebye")." word replace<br>";
 // to uppercase
-echo strtoupper($grating)."To Uppercase<br>";
+echo strtoupper($grating)." To Uppercase<br>";
 //to lower
-echo strtolower($grating). "To lower case<br>";
+echo strtolower($grating). " To lower case<br>";

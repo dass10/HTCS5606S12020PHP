@@ -6,3 +6,5 @@ $who = "shweta";
 echo  $grating;
 
 echo  $who;
+
+echo "<p>" .$grating. " ".$who."</p>";

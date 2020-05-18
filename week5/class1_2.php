@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Create PHP in HTML</title>
-    <link rel="stylesheet" href="week5/CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
 <?php

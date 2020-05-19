@@ -14,7 +14,7 @@ $y = 5;
 
 echo "x = ".$x;
 echo  "y = ".$y;
-echo "z = x + y = ".($x + $y);
+echo "z = x + y = ".($x + $y); //home work
 
 $grating = "Hello world";
 

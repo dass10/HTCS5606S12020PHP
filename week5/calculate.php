@@ -1,10 +1,9 @@
 <?php
-
 if (isset($_POST["width"])){ //isset check the post data
     $w = $_POST["width"];
     $h = $_POST["height"];
     $a = calculateArea($w, $h); // corresponding to my function input width and height
-    echo "Area: ".$a;
+
 
 
 

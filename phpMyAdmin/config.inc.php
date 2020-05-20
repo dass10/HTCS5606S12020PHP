@@ -31,7 +31,7 @@ $cfg['Servers'][$i]['auth_type'] = 'config';
 $cfg['Servers'][$i]['user'] = 'sp8kxui59yxqk3uy';
 $cfg['Servers'][$i]['password'] = 'vfb198mevrvl8nl7';
 /* Server parameters */
-$cfg['Servers'][$i]['host'] = 'kf3k4aywsrp0d2is.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$cfg['Servers'][$i]['host'] = ' m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
 

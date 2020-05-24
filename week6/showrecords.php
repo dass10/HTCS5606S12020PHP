@@ -11,7 +11,7 @@ if ($connection->connect_error){
     echo "Connection Created";
 }
 
-$sql = "select * from user"; //create query
+$sql = "select * from Users"; //create query
 $result = $connection->query($sql);//run the query on this connection
 
 if ($result->num_rows> 0){

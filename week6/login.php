@@ -21,5 +21,21 @@ if (isset($_POST["username"])) {
     } else {
         echo "Connection Created";
     }
+    //is the username in my table
+    $sql = "select * from Users  where username = '$username'"; // this is our query
+    $result = $connection->query($sql);//run query on this connection through method query()
+    if ($result->num_rows == 1) { //mean user exist in our database
+
+        while ($row = $result->fetch_assoc()) {
+            if ($row["pwd"] == $pwd) { //check password
+                echo "access granted";
+            } else {
+                echo "wrong password";
+            }
+        }
+
+    } else {
+        echo "wrong username";
+    }
 }
 

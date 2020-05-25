@@ -22,12 +22,13 @@ if (isset($_POST["username"])) {
         echo "Connection Created";
     }
     //is the username in my table
-    $sql = "select * from users  where username = '$username'"; // this is our query
+    $sql = "select * from Users  where username = '$username'"; // this is our query
+    echo $sql;
     $result = $connection->query($sql);//run query on this connection through method query()
     if ($result->num_rows == 1) { //mean user exist in our database
 
         while ($row = $result->fetch_assoc()) {
-            if ($row["pwd"] == $pwd) { //check password
+            if ($row["password"] == $password) { //check password
                 echo "access granted";
             } else {
                 echo "wrong password";

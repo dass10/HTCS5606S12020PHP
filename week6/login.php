@@ -9,7 +9,7 @@
 if (isset($_POST["username"])) {
 
     $username = $_POST["username"];
-    $password = $_POST["pwd"];
+    $password = $_POST["password"];
     $server = "m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
     $user = "sp8kxui59yxqk3uy";
     $pwd = "vfb198mevrvl8nl7";

@@ -22,7 +22,7 @@ if (isset($_POST["username"])) {
         echo "Connection Created";
     }
     //is the username in my table
-    $sql = "select * from Users  where username = '$username'"; // this is our query
+    $sql = "select * from users  where username = '$username'"; // this is our query
     $result = $connection->query($sql);//run query on this connection through method query()
     if ($result->num_rows == 1) { //mean user exist in our database
 
@@ -39,7 +39,7 @@ if (isset($_POST["username"])) {
     }
 }else{
     ?>
-<script>window.open("loginform.html");</script>// go to login form
+<script>window.open("loginform.html",);</script>// go to login form
 <?php
 }
 

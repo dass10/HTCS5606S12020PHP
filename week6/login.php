@@ -37,5 +37,9 @@ if (isset($_POST["username"])) {
     } else {
         echo "wrong username";
     }
+}else{
+    ?>
+<script>window.open("loginform.html");</script>// go to login form
+<?php
 }
 

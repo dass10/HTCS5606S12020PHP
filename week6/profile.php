@@ -10,3 +10,4 @@ if ($connection->connect_error) {
 } else {
     echo "Connection Created";
 }
+$sql = "select * from Users where username= 'something'";

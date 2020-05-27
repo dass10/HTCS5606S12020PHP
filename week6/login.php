@@ -36,10 +36,17 @@ if (isset($_POST["username"])) {
 
     } else {
         echo "wrong username";
+        ?>
+        <script>
+            setTimeout(function () {
+        window.open("loginform.html","_self"); // go to login form
+    }, 3000);
+        </script>
+        <?php
     }
 }else{
     ?>
-<script>window.open("loginform.html",);</script>// go to login form
+
 <?php
 }
 

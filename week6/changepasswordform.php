@@ -1,5 +1,5 @@
 <?php
-
+//whose passwird we change?
 ?>
 
 <form action="changepassword.php" method="post"

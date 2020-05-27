@@ -39,7 +39,7 @@ if (isset($_POST["username"])) {
         ?>
         <script>
             setTimeout(function () {
-        window.open("loginform.html","_self"); // go to login form
+        window.open("loginform.php","_self"); // go to login form
     }, 3000);
         </script>
         <?php

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shweta Assessment 1 Home page</title>
+
+    <script src="JS/script.js"></script>
+    <link rel="stylesheet" href="CSS/checkout.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body id="page6">
+
+
+<div id="header">
+    <div class="topnav">
+        <img src="image/checkout.png" height="50" width="50"/>
+        <input type="text" placeholder="Search..">
+    </div>
+
+
+    <h3><img src="image/logo.png" height="50" width="50"/><br>
+        The Pet Meal
+    </h3>
+    <div id = "nav">
+        <ul>
+            <li><a href="index.php" ><b>Home</b></a></li>
+            <li><a href="shopbypet.php"><b>Shop by Pet</b></a></li>
+            <li><a href= "storelocation.php"><b>Store Location</b></a></li>
+            <li><a href="products.html" class="active"><b>Products</b></a></li>
+            <li><a href="loginregister.html"><b>Log In/Register</b></a></li>
+            <li><a href="checkout.html" class="active"><b>Checkout</b></a></li>
+        </ul>
+    </div>
+    <tr>
+    <td id="middlecontent">
+
+        <div class="product">
+            <img src="image/fishfood1.jpeg" />
+
+            <p>$9.99 ea</p>
+            <p>
+                Qty:<input class="qty" id="fishfood1Qty" type="number">
+                <button class = "addBut" id="addfishfood1" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+        <div class="product">
+            <img src="image/fishfood.jpeg"/>
+
+            <p>$11.99 ea</p>
+            <p>Qty:<input class="qty" id="fishfoodQty" type="number">
+                <button class = "addBut" id="addfishfood" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+        <div class="product">
+            <img src="image/petfd.jpg" />
+
+            <p>$19.99 ea</p>
+            <p>Qty:<input class="qty" id="petfdQty" type="number">
+                <button class = "addBut" id="addpetfd" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+
+        <div class="product">
+            <img src="image/chickfood.jpeg"/>
+
+
+            <p>$19.99 ea</p>
+            <p>Qty:<input class="qty" id="chickfoodQty" type="number">
+                <button class = "addBut" id="addchickfood" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+
+        <div class="product">
+            <img src="image/chickfd1.jpeg" height="510" width="510"/>
+
+
+            <p>$19.99 ea</p>
+            <p>Qty:<input class="qty" id="chickfd1Qty" type="number">
+                <button class = "addBut" id="addchickfd1" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+        <div class="product">
+            <img src="image/henfd.png"/>
+
+
+            <p>$44.99 ea</p>
+            <p>Qty:<input class="qty" id="henfdQty" type="number">
+                <button class = "addBut" id="addhenfd" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+
+        <div class="product">
+            <img src="image/parrotfd.jpeg"/>
+            <p>$19.99 ea</p>
+            <p>Qty:<input class="qty" id="parrotfdQty" type="number">
+                <button class = "addBut" id="addparrotfd" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+
+        <div class="product">
+            <img src="image/henfd1.jpeg" />
+            <p>$10.99 ea</p>
+            <p>Qty:<input class="qty" id="henfood1Qty" type="number">
+                <button class = "addBut" id="henfood1" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+        <div class="product">
+            <img src="image/birdfd.png"/>
+            <p>$14.99 ea</p>
+            <p>Qty:<input class="qty" id="birdfdQty" type="number">
+                <button class = "addBut" id="addbirdfd" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+        <div class="product">
+            <img src="image/birdfd1.jpeg"/>
+            <p>$9.99 ea</p>
+            <p>Qty:<input class="qty" id="birdfd1Qty" type="number">
+                <button class = "addBut" id="addbirdfd1" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+
+    </td>
+
+    <td id="rightside">
+        <p>Cart:</p>
+        <div id="cartDiv"></div>
+        <button id="showInvoiceBut">Invoice</button>
+    </td>
+    </tr>
+    </table>
+</div>
+
+<div id="voicePage" class="voice">
+
+    <!-- Modal content -->
+    <div id="voice-content">
+        <span class="close">&times;</span>
+        <p>Please check your invoice</p>
+    </div>
+
+
+</div>
+<div class="footer">
+    <div class="inner-footer">
+        <div class="footer-items">
+            <h1>Help</h1>
+            <p>Shipping</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Return & Exchange</p>
+        </div>
+        <div class="footer-items">
+            <h1>Company Info</h1>
+            <p>About us</p>
+            <p>FAQ</p>
+            <p>Contact us</p>
+        </div>
+
+        <div class="footer-items">
+            <h1>Connect With us</h1>
+            <a href="https://www.instagram.com/"><img src="image/insta.jpg" /></a>
+
+            <a href="https://twitter.com/"><img src="image/twitter.jpg" /></a>
+
+            <a href="https://www.facebook.com/"><img src="image/fb.jpg" /><br><br></a>
+
+            <img src="image/call us.jpg"/> +64220440190
+
+
+        </div>
+
+        <div class="footer-items">
+            <h1>Join our NewsLetter</h1>
+            <p>Be the first to Hear about our New Arrivals and Special Deals</p>
+            <img src="image/sign up.png" height="250" width="250"/>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

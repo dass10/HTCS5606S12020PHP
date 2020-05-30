@@ -1,0 +1,346 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Bookman Old Style";
+    line-height: 1;
+    width: 100%;
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+/*search bar*/
+.topnav {
+    overflow: hidden;
+
+    border-radius: 5px;
+}
+.topnav img{
+float: right;
+}
+
+.topnav input[type=text] {
+    float: right;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2px;
+    margin-right: 50px;
+
+    border-color: black;
+    font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+
+}
+
+
+
+#page1 #main div{
+    background-color: cornflowerblue;
+    width: auto;
+    height: auto;
+    border: 20px solid midnightblue;
+    padding: 50px;
+    margin: auto;
+    font-family: "Bookman Old Style";
+    text-align: left;
+}
+/*shop by pet page*/
+#page2 #main img{
+    display: inline-block;
+    width: 415px;
+    height: 500px;
+    margin: 15px;
+
+
+}
+
+/*store location page*/
+#page3 #header img{
+    border-radius: 35%;
+    display: inline-block;
+
+}
+
+#page3 div.polaroid {
+    width: 300px;
+    background-color: white;
+    font-family: "Bookman Old Style";
+    text-align: inherit;
+    font-size: small;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 40px;
+    padding: 30px;
+    border-radius: 30px;
+    display: inline-block;
+}
+#page3 #main img{
+   width: 40%;
+    height:auto;
+
+}
+/* products page*/
+#page4 .wrapper{
+    width: 1290px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#page4 #main .wrapper h1{
+    display: inline-block;
+    background-color: royalblue;
+    color: black;
+    font-size: 27px;
+    font-family: "Bookman Old Style";
+    text-transform: uppercase;
+    padding: 10px;
+    float: left;
+    border-radius: 50px;
+}
+#page4 .clear{
+    clear: both;
+}
+#page4 .items{
+    display: block;
+    margin: 15px 0;
+}
+
+#page4  .item{
+    background-color: whitesmoke;
+    float: right;
+    margin: 10px 10px 10px 10px;
+    width: 190px;
+    padding: 10px;
+}
+#page4  .item img{
+    display: block;
+    margin: auto;
+
+}
+
+#page4 #main .wrapper .item h2{
+    font-family: "Bookman Old Style";
+    font-size: 12px;
+    display: inline-block;
+
+    margin: 0 0 6px 0;
+    padding: 0 0 6px 0;
+
+}
+
+/*login/registration page*/
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.form-box{
+    width: 580px;
+    height: 560px;
+    margin: 6%auto;
+    padding: inherit;
+    border-radius: 30px;
+    overflow: hidden;
+    background: linear-gradient(to right, royalblue,blue);
+}
+
+
+.button-box{
+    width: 250px;
+    margin: 35px auto;
+
+    box-shadow: 0 0 20px 9px whitesmoke;
+    border-radius: 30px;
+
+}
+.toggle-btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-family: "Bookman Old Style";
+
+}
+#btn{
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    background: linear-gradient(to right, whitesmoke,royalblue);
+    border-radius: 20px ;
+    transition: .5s;
+}
+.input-group{
+    top:170px;
+    padding-left: 110px;
+    width: 350px;
+
+    text-align: center;
+    transition: .5s;
+    font-family: "Bookman Old Style";
+
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    font-family: "Bookman Old Style";
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 30px;
+    text-align: center;
+    border-bottom: 2px solid lightblue;
+    outline: none;
+    background: whitesmoke;
+}
+.submit-btn{
+    width: 85%;
+    font-family: "Bookman Old Style";
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, royalblue,whitesmoke);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: black;
+    font-size: 12px;
+    font-family: "Bookman Old Style";
+    bottom: 50px;
+
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+
+#header{
+    font-size: medium;
+    font-family: "Bookman Old Style";
+    color: #111111;
+}
+#picAdv{
+    width:100px;
+    overflow:hidden;
+    text-align:center;
+}
+
+
+/*navigation menu*/
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: royalblue;
+
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-family: "Bookman Old Style";
+    font-size: 20px;
+}
+
+/*hover */
+#nav li a:hover {
+    background-color: cornflowerblue;
+}
+
+#nav .active {
+    background-color: royalblue;
+}
+
+/*footer contains*/
+.footer {
+    background-color: royalblue;
+    position: relative;
+}
+
+
+    .inner-footer{
+        width: 80%;
+        margin: auto;
+        padding: 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-items{
+        width: 25%;
+         padding: 5px 5px;
+        box-sizing: border-box;
+        }
+
+        h1 {
+          padding: 10px 0;
+          font-size: 20px;
+            font-family: "Bookman Old Style";
+            color: black;
+          text-transform: uppercase;
+        }
+
+        .footer-items p{
+           color: black;
+           font-size: 15px;
+            text-align: justify;
+            line-height: 15px;
+    }
+        .footer-items img{
+            width: 40px;
+            height: auto;
+        }
+
+/*home page header image*/
+#borderimg{
+    width: auto;
+    font-size:0;
+    border: 10px solid brown;
+    padding: 15px;
+    border-image: 10 stretch;
+}
+#header img{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    border-collapse:collapse;
+}
+
+#kitty{
+    width: 20.83%;
+}
+
+#img2{
+    width: 32.72%;
+}
+
+#img3{
+    width: 14.49%;
+}
+
+#img4{
+    width: 14.53%;
+}
+
+#img5{
+    width: 17.43%;
+}
+

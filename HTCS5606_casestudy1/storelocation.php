@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Store Location</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js"></script>
+</head>
+<body id="page3">
+
+<div id="header">
+    <div class="topnav">
+        <img src="image/checkout.png" height="50" width="50"/>
+        <input type="text" placeholder="Search..">
+    </div>
+
+    <h3><img src="image/logo.png" height="50" width="50"/><br>
+        The Pet Meal
+    </h3>
+    <div id = "nav">
+        <ul>
+            <li><a href="index.php" ><b>Home</b></a></li>
+            <li><a href="shopbypet.php"><b>Shop by Pet</b></a></li>
+            <li><a href= "storelocation.php"><b>Store Location</b></a></li>
+            <li><a href="products.html" class="active"><b>Products</b></a></li>
+            <li><a href="loginregister.html"><b>Log In/Register</b></a></li>
+            <li><a href="checkout.html" class="active"><b>Checkout</b></a></li>
+        </ul>
+    </div>
+
+    <tr>
+        <td id="middlecontent">
+        <div class="polaroid">
+            <img src="image/store1.jpg" height="194" width="260"/>
+            <div class="container">
+        <p><h2>SOUTH NEW ZEALAND</h2>
+        Office Hours: 9am-8 pm Monday to Friday
+        Phone:- +64 7 928 10401
+        Email:- sales@thepetmeal.co.nz
+        Auckland:-4322 ghost street
+        Mt Maunganui South
+            New Zealand</p>
+    </div>
+    </div>
+
+        <div class="polaroid">
+            <img src="image/store2.jpg" height="194" width="260"/>
+            <div class="container">
+                <p><h2>Nelson</h2>
+                 Office Hours: 9am-6 pm Monday to Friday
+                Phone:- +64 3 5485877
+                Email:- sales@thepetmeal.co.nz
+                Address:-13 Bolt Road,Tahunanui,Nelson
+                7011
+        </p>
+</div>
+</div>
+    <div class="polaroid">
+        <img src="image/store 3.jpg" height="194" width="260"/>
+                <div class="container">
+                <p><h2>Auckland</h2>
+                Office Hours: 8:30am-5 pm Monday to Friday
+                 Phone:- +64 9 5735678
+                Email:- sales@thepetmeal.co.nz
+                Address:-519C Mt Wellington Highway, Mt
+                Wellington 1060</p>
+        </div>
+    </div>
+
+
+    <div class="polaroid">
+        <img src="image/store4.jpg" height="194" width="260"/>
+            <div class="container">
+            <p><h2>Auckland</h2>
+            Office Hours: 8:30am-6 pm
+                Monday to Friday<br>
+            Phone:- +64 9 3782966<br>
+            Email:- sales@thepetmeal.co.nz
+            Address:-11 Verissimo Drive,2022
+            </p>
+        </div>
+    </div>
+
+    <div class="polaroid">
+        <img src="image/store 5.jpg" height="194" width="260"/>
+        <div class="container">
+            <p><h2>WELLINGTON</h2>
+            Office Hours: 8:30am-6:30 pm Monday to Saturday<br>
+            Phone:- +64 4 8159432<br>
+            Email:- sales@thepetmeal.co.nz
+            Address:-139 Centennial Drive,
+            Ngauranga Gorge,6035</p>
+        </div>
+    </div>
+
+    <div class="polaroid">
+        <img src="image/store6.jpg" class="center" height="194" width="260"/>
+            <div class="container">
+            <p><h2>CHRISTCHURCH</h2>
+            Office Hours: 8:30am-4:30 pm Monday to Friday<br>
+            Phone:- +64 3 3360549<br>
+            Email:- sales@thepetmeal.co.nz
+            Address:-119 Carmen Road,Hei Hei 0422 </p>
+        </div>
+    </div>
+
+
+        </td>
+    </tr>
+</div>
+<div id="main">
+    <div id="image">
+        <img src="image/dg.jpg" />
+
+
+</div>
+<div class="footer">
+    <div class="inner-footer">
+        <div class="footer-items">
+            <h1>Help</h1>
+            <p>Shipping</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Return & Exchange</p>
+        </div>
+        <div class="footer-items">
+            <h1>Company Info</h1>
+            <p>About us</p>
+            <p>FAQ</p>
+            <p>Contact us</p>
+        </div>
+
+        <div class="footer-items">
+            <h1>Connect With us</h1>
+            <a href="https://www.instagram.com/"><img src="image/insta.jpg" /></a>
+
+            <a href="https://twitter.com/"><img src="image/twitter.jpg" /></a>
+
+            <a href="https://www.facebook.com/"><img src="image/fb.jpg" /><br><br></a>
+
+            <img src="image/call us.jpg"/> +64220440190
+
+
+        </div>
+
+        <div class="footer-items">
+            <h1>Join our NewsLetter</h1>
+            <p>Be the first to Hear about our New Arrivals and Special Deals</p>
+            <img src="image/sign up.png" height="250" width="250"/>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>

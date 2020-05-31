@@ -23,15 +23,19 @@
         The Pet Meal
     </h3>
     <div id = "nav">
+        <div class="level1">
+            <a href="shopbypet.php">one level</a>
+        </div>
+        <div class="level1">
+            <a href="#" class="topItem">two levels</a>
+            <div class="level2">
+                <p><a href="#">Item 1</a></p>
+                <p><a href="#">Item 1</a></p>
+                <p><a href="#">Item 1</a></p>
+            </div>
         <ul>
             <li><a href="index.php" ><b>Home</b></a></li>
-            <li><a href="shopbypet.php" class="food"><b>Shop by Pet</b></a>
-            <div class="Dog Food">
-                <p><a href="#">Frozen Food</a> </p>
-                <p><a href="#">Dry Food</a> </p>
-                <p><a href="#">Wet Food</a> </p>
 
-            </div></li>
             <li><a href= "storelocation.php"><b>Store Location</b></a></li>
             <li><a href="products.html" class="active"><b>Products</b></a></li>
             <li><a href="loginregister.php"><b>Log In/Register</b></a></li>

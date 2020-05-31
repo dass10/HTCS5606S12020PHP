@@ -32,6 +32,21 @@ float: right;
 @media screen and (max-width: 800px) {
 
 }
+#page2 #nav.level1{
+    vertical-align: top;
+    display:inline-block;
+    margin-left: 20px;
+}
+
+#page2 #nav a{
+    text-decoration: none;
+}
+
+#page2 #nav.level2{
+    display: none;
+}
+
+
 
 
 

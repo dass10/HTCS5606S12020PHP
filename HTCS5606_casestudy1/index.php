@@ -28,7 +28,7 @@
             <li><a href="shopbypet.php"><b>Shop by Pet</b></a></li>
             <li><a href= "storelocation.php"><b>Store Location</b></a></li>
             <li><a href="products.html" class="active"><b>Products</b></a></li>
-            <li><a href="loginregister.html"><b>Log In/Register</b></a></li>
+            <li><a href="loginregister.php"><b>Log In/Register</b></a></li>
             <li><a href="checkout.html" class="active"><b>Checkout</b></a></li>
         </ul>
     </div>

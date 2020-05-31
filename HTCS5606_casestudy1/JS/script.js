@@ -15,11 +15,11 @@ function login(){
 }
 
 function register (){
-    window.open("register.html", "_self");
+    window.open("register.php", "_self");
 }
 
 function login(){
-    window.open("loginregister.html", "_self");
+    window.open("loginregister.php", "_self");
 }
 
 

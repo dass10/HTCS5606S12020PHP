@@ -9,6 +9,9 @@
 
 </head>
 <body id="page1">
+<?php
+include_once "header.php";
+?>
 
 <!--This is my homework today-->
 

@@ -4,7 +4,7 @@ session_start();//either you use session or set session,you must have session
 $username = $_SESSION["username"]; //use session
 
 $sql = "select password from Users where username='username'";
-$result = $connection->query($sql);
+$result = $conn->query($sql);
 if ($result-> num_rows == 1){
     while ($row = $result->fetch_assoc()) {
         $oldPwdInDb = $row["password"];

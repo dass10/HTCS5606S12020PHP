@@ -27,7 +27,17 @@
 
         <ul>
             <li><a href="index.php" ><b>Home</b></a></li>
-            <li><a href="shopbypet.php"><b>Shop by Pet</b></a></li>
+            <li><a href="shopbypet.php"><b>Shop by Pet</b></a>
+                <div class="level2">
+
+                    <p><a href="#">item 4</a></p>
+
+                    <p><a href="#">item 5</a></p>
+
+                    <p><a href="#">item 6</a></p>
+
+                </div>
+            </li>
             <li><a href= "storelocation.php"><b>Store Location</b></a></li>
             <li><a href="products.html" class="active"><b>Products</b></a></li>
             <li><a href="loginregister.php"><b>Log In/Register</b></a></li>

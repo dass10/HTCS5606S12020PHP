@@ -6,8 +6,10 @@ $user = "sp8kxui59yxqk3uy";
 $pwd = "vfb198mevrvl8nl7";
 $database = "b1m6lvq858bqg11k";
 /**
+ * name dbconn
  * @return mysqli a connection
  */
+
 function dbconn(){
     $connection = new mysqli($GLOBALS['server'], $GLOBALS['user'], $GLOBALS['pwd'], $GLOBALS['database']); //create database connection
     if ($connection->connect_error) {
@@ -18,6 +20,12 @@ function dbconn(){
 }
 
 
+/**
+ * @name login
+ * @param $username
+ * @param $password
+ * @return bool //login or not
+ */
 function login($username, $password){
 //    return true/false return give result back and jump out from this function. Any code after return won't be run
     $conn = dbconn(); //create database connection from function dbconn()
@@ -38,6 +46,25 @@ function login($username, $password){
     } else{ //for username
         $conn->close();
         return false; // cannot login
+    }
+}
+
+/**
+ * @name showprofile
+ * @param $username
+ */
+function showprofile($username) {//this function has no return
+    $conn = dbconn();
+    $sql = "select * from Users where username= '$username'";
+    $result = $conn->query($sql);
+    if ($result->num_rows == 1) {
+        while ($row = $result->fetch_assoc()) {
+            echo "<p>" . $row["id"] . "<p>";
+            echo "<p>" . $row["username"] . "<p>";
+            echo "<p>" . $row["password"] . "<p>";
+            echo "<p>" . $row["name"] . "<p>";
+            $conn->close();
+        }
     }
 }
 

@@ -73,20 +73,22 @@ function showprofile($username)
 
 }
 
-function showrecords()
-{
+function showrecords(){
     $conn = dbconn();
-    $sql = "select * from Users";
-    $result = $conn->query($sql);
-    if ($result->num_rows > 0) {
+    $sql = "select * from Users";//create query
+    $result = $conn->query($sql); //run the query
+    $records = array();
+    if ($result->num_rows > 0) { //check if there is record in the result
         while ($row = $result->fetch_assoc()) { //check if there is record in the result
             echo $row['id'] . " " . $row['username'] . " " . $row['password'] . " " . $row['name'] . "<br>"; // in each row,we have comumns.
-
+            $record =array($row['id'], $row['username'], $row['password'], $row['name']);
+            array_push ($records, $records);
         }
     } else {
         echo "no result in the table";
     }
     $conn->close();
+    return $records;
 
 }
 

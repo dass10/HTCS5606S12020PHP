@@ -53,7 +53,8 @@ function login($username, $password){
  * @name showprofile
  * @param $username
  */
-function showprofile($username) {//this function has no return
+function showprofile($username)
+{//this function has no return
     $conn = dbconn();
     $sql = "select * from Users where username= '$username'";
     $result = $conn->query($sql);
@@ -66,5 +67,74 @@ function showprofile($username) {//this function has no return
             $conn->close();
         }
     }
+
+
 }
 
+function showrecords (){
+    $conn = dbconn();
+    $sql = "select * from Users";
+    $result = $conn->query($sql);
+    if ($result->num_rows> 0){
+        while($row = $result-> fetch_assoc()){ //check if there is record in the result
+            echo $row['id']." ".$row['username']." ".$row['password']. " ".$row['name']. "<br>"; // in each row,we have comumns.
+
+        }
+    }else{
+        echo "no result in the table";
+    }
+    $conn->close();
+
+}
+
+
+/**
+ *
+ */
+function changepassword(){
+    $conn = dbconn();
+    $sql = "select password from Users where username='username'";
+    $result = $conn->query($sql);
+    if ($result-> num_rows == 1){
+        while ($row = $result->fetch_assoc()) {
+            $oldPwdInDb = $row["password"];
+        }
+    }
+    if(isset($_POST['oldpwd'])) { //isset check variable exist or not
+        if ($_POST["oldpwd"] == $oldPwdInDb) {
+            $sql = "update Users set password = '";
+            $sql .= $_POST["newpwd"];
+            $sql .= "'where username = '$username'";
+            $sql .= $conn->query($sql);
+            echo "password changed";
+
+        } else {
+            echo "go back,input again";
+        }
+        $conn->close();
+    }
+
+}
+
+/**
+ *
+ */
+function showtable(){
+    $conn = dbconn();
+    $sql = "select * from Users";
+    $result = $conn->query($sql);
+    if ($result->num_rows> 0){
+        while($row = $result-> fetch_assoc()){ //check if there is record in the result
+            echo "<tr>";
+            echo "<td>".$row['id']."</td>";
+            echo "<td>".$row['username']."</td>";
+            echo "<td>".$row['password']. "</td>";
+            echo "<td>".$row['name']. "</td>";
+            echo "</tr>";
+
+        }
+    }else{
+        echo "no result in the table";
+    }
+    $conn->close();
+}

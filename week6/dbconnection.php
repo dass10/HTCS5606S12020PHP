@@ -10,7 +10,8 @@ $database = "b1m6lvq858bqg11k";
  * @return mysqli a connection
  */
 
-function dbconn(){
+function dbconn()
+{
     $connection = new mysqli($GLOBALS['server'], $GLOBALS['user'], $GLOBALS['pwd'], $GLOBALS['database']); //create database connection
     if ($connection->connect_error) {
         echo $connection->connect_error;
@@ -26,24 +27,25 @@ function dbconn(){
  * @param $password
  * @return bool //login or not
  */
-function login($username, $password){
+function login($username, $password)
+{
 //    return true/false return give result back and jump out from this function. Any code after return won't be run
     $conn = dbconn(); //create database connection from function dbconn()
     $sql = "select * from Users where username = '$username'"; //this is our query
     $result = $conn->query($sql); //run query on the created connection through method query()
-    if ($result->num_rows == 1){ // means user exist in our database
-        while ($row = $result->fetch_assoc()){
-            if ($row["password"] == $password){ //check password
+    if ($result->num_rows == 1) { // means user exist in our database
+        while ($row = $result->fetch_assoc()) {
+            if ($row["password"] == $password) { //check password
                 $conn->close();
                 echo "db connection closed before return";
                 return true; //login
                 echo "db connection closed after return";
-            }else{ //username is correct, check password
+            } else { //username is correct, check password
                 $conn->close();
                 return false; // cannot login
             }
         }
-    } else{ //for username
+    } else { //for username
         $conn->close();
         return false; // cannot login
     }
@@ -71,16 +73,17 @@ function showprofile($username)
 
 }
 
-function showrecords (){
+function showrecords()
+{
     $conn = dbconn();
     $sql = "select * from Users";
     $result = $conn->query($sql);
-    if ($result->num_rows> 0){
-        while($row = $result-> fetch_assoc()){ //check if there is record in the result
-            echo $row['id']." ".$row['username']." ".$row['password']. " ".$row['name']. "<br>"; // in each row,we have comumns.
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) { //check if there is record in the result
+            echo $row['id'] . " " . $row['username'] . " " . $row['password'] . " " . $row['name'] . "<br>"; // in each row,we have comumns.
 
         }
-    }else{
+    } else {
         echo "no result in the table";
     }
     $conn->close();
@@ -91,49 +94,50 @@ function showrecords (){
 /**
  *
  */
-function changepassword(){
+function changepassword($username, $oldPassword,$newPassword){
     $conn = dbconn();
     $sql = "select password from Users where username='username'";
     $result = $conn->query($sql);
-    if ($result-> num_rows == 1){
+    if ($result->num_rows == 1) {
         while ($row = $result->fetch_assoc()) {
             $oldPwdInDb = $row["password"];
         }
     }
-    if(isset($_POST['oldpwd'])) { //isset check variable exist or not
-        if ($_POST["oldpwd"] == $oldPwdInDb) {
-            $sql = "update Users set password = '";
-            $sql .= $_POST["newpwd"];
-            $sql .= "'where username = '$username'";
-            $sql .= $conn->query($sql);
-            echo "password changed";
-
-        } else {
-            echo "go back,input again";
-        }
+    if ($oldPassword == $oldPwdInDb) {//check the old password input
+        $sql = "update Users set password = '";
+        $sql .= $newPassword;
+        $sql .= "'where username = '$username'";
+        $sql .= $conn->query($sql);
         $conn->close();
+        return true; //password changed,return true
+
+    } else {
+        $conn->close();
+        return false; //if not return false
     }
+
 
 }
 
 /**
  *
  */
-function showtable(){
+function showtable()
+{
     $conn = dbconn();
     $sql = "select * from Users";
     $result = $conn->query($sql);
-    if ($result->num_rows> 0){
-        while($row = $result-> fetch_assoc()){ //check if there is record in the result
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) { //check if there is record in the result
             echo "<tr>";
-            echo "<td>".$row['id']."</td>";
-            echo "<td>".$row['username']."</td>";
-            echo "<td>".$row['password']. "</td>";
-            echo "<td>".$row['name']. "</td>";
+            echo "<td>" . $row['id'] . "</td>";
+            echo "<td>" . $row['username'] . "</td>";
+            echo "<td>" . $row['password'] . "</td>";
+            echo "<td>" . $row['name'] . "</td>";
             echo "</tr>";
 
         }
-    }else{
+    } else {
         echo "no result in the table";
     }
     $conn->close();

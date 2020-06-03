@@ -72,6 +72,11 @@ function showprofile($username)
 
 
 }
+include_once "class/User.php";
+/**
+ * @name showRecords
+ * @return array //user array
+ */
 
 function showrecords(){
     $conn = dbconn();
@@ -81,7 +86,7 @@ function showrecords(){
     if ($result->num_rows > 0) { //check if there is record in the result
         while ($row = $result->fetch_assoc()) { //check if there is record in the result
             echo $row['id'] . " " . $row['username'] . " " . $row['password'] . " " . $row['name'] . "<br>"; // in each row,we have comumns.
-            $record =array($row['id'], $row['username'], $row['password'], $row['name']);
+            $records = new User($row['id'], $row['username'], $row['password'], $row['name']);
             array_push ($records, $records);
         }
     } else {

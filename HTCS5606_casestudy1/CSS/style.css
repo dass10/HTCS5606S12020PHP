@@ -39,8 +39,9 @@ float: right;
     height: 40px;
     z-index:10;
     margin: 5px;
-    overflow: hidden;
-    background-color: pink;
+    overflow: visible;
+    background-color: royalblue;
+    border-radius: 5px;
 
 }
 

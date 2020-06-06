@@ -34,19 +34,31 @@ float: right;
 }
 
 
-
-
-
-#page1 #main div{
-    background-color: cornflowerblue;
-    width: auto;
-    height: auto;
-    border: 20px solid midnightblue;
-    padding: 50px;
-    margin: auto;
-    font-family: "Bookman Old Style";
-    text-align: left;
+#nav{
+    /*if I want to make navigation bar always in front of everything,
+    I need position to be something, I recommend relative*/
+    /*z-index is something like layer*/
+    position: relative;
+    height: 30px;
+    z-index:10;
 }
+
+.level1{
+    vertical-align: top;
+    display:inline-block;
+    margin-left: 20px;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+.level2{
+    display: none;
+}
+
+
+
 /*shop by pet page*/
 #page2 #main img{
     display: inline-block;

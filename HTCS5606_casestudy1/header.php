@@ -13,15 +13,28 @@
 
 </head>
 <body>
-<div id = "nav">
-    <ul>
-        <li><a href="index.php" ><b>Home</b></a></li>
-        <li><a href="shopbypet.php"><b>Shop by Pet</b></a></li>
-        <li><a href= "storelocation.php"><b>Store Location</b></a></li>
-        <li><a href="products.html" class="active"><b>Products</b></a></li>
-        <li><a href="loginregister.php"><b>Log In/Register</b></a></li>
-        <li><a href="checkout.html" class="active"><b>Checkout</b></a></li>
-    </ul>
+<h1>logo</h1>
+<div id="nav">
+    <div class="level1">
+        <a href="#">one level</a>
+    </div>
+    <div class="level1">
+        <a href="#" class="topItem">two levels</a>
+        <div class="level2">
+            <p><a href="#">item 1</a></p>
+            <p><a href="#">item 2</a></p>
+            <p><a href="#">item 3</a></p>
+        </div>
+    </div>
+    <div class="level1">
+        <a href="#" class="topItem">two levels</a>
+        <div class="level2">
+            <p><a href="#">item 4</a></p>
+            <p><a href="#">item 5</a></p>
+            <p><a href="#">item 6</a></p>
+        </div>
+    </div>
 </div>
+
 </body>
 </html>

@@ -56,7 +56,7 @@ float: right;
     color: black;
     text-align: center;
     padding: 20px 40px;
-    position: absolute;
+
     border-radius: 2px;
     font-family: "Bookman Old Style";
     font-size: 20px;
@@ -67,7 +67,9 @@ float: right;
 }
 
 .level2{
-    display: none;
+    horiz-align: center;
+    display:inline-block;
+    margin-left: 20px;
 }
 
 

@@ -27,6 +27,10 @@ $(document).ready(function () {
 
         $(this).next().css("display", "block");
     });
+    $(".level1").mouseleave(function () {
+
+        $(this).children("div").hide();
+    });
     $(".level2").mouseleave(function () {
 
         $(this).children("div").hide();

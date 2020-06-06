@@ -40,6 +40,16 @@
     <div class="level1">
         <a href="storelocation.php">Store Location</a>
     </div>
+    <div class="level1">
+        <a href="products.html">Products</a>
+    </div>
+    <div class="level1">
+        <a href="loginregister.php">Log In/Register</a>
+    </div>
+    <div class="level1">
+        <a href="checkout.php">Checkout</a>
+    </div>
+
 
 </div>
 

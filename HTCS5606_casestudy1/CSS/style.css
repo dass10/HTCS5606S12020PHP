@@ -34,7 +34,7 @@ float: right;
 
 
 #nav{
-    position: relative;
+    position: absolute;
     height: 50px;
     z-index:30;
     overflow: visible;

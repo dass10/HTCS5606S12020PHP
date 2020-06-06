@@ -37,6 +37,10 @@
             <p><a href="#">Fish Food</a></p>
         </div>
     </div>
+    <div class="level1">
+        <a href="storelocation.php">Store Location</a>
+    </div>
+
 </div>
 
 </body>

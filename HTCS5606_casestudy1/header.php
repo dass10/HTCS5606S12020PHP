@@ -16,23 +16,35 @@
 
 <div id="nav">
     <div class="level1">
-        <a href="#">one level</a>
+        <a href="#">Home</a>
     </div>
     <div class="level1">
-        <a href="#" class="topItem">two levels</a>
+        <a href="#" class="topItem">Shop by Pet</a>
         <div class="level2">
-            <p><a href="#">item 1</a></p>
-            <p><a href="#">item 2</a></p>
-            <p><a href="#">item 3</a></p>
+            <p><a href="#">Dog Food </a></p>
+            <p><a href="#">Cat Food</a></p>
+            <p><a href="#">Bird Food</a></p>
+            <p><a href="#">Hen Food  </a></p>
+            <p><a href="#">Small Animal Food</a></p>
+            <p><a href="#">Fish Food</a></p>
         </div>
     </div>
     <div class="level1">
-        <a href="#" class="topItem">two levels</a>
+        <a href="#" class="topItem">Store Location</a>
         <div class="level2">
             <p><a href="#">item 4</a></p>
             <p><a href="#">item 5</a></p>
             <p><a href="#">item 6</a></p>
         </div>
+    </div>
+    <div class="level1">
+        <a href="#">Products</a>
+    </div>
+    <div class="level1">
+        <a href="#">Log In/Register</a>
+    </div>
+    <div class="level1">
+        <a href="#">Checkout</a>
     </div>
 </div>
 

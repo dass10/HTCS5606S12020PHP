@@ -48,7 +48,8 @@ float: right;
 }
 
 #nav a{
-    text-decoration: none;
+    text-decoration: #007bff;
+
 }
 
 .level2{

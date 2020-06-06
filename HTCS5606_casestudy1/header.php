@@ -18,7 +18,7 @@
     <div class="level1">
         <a href="index.php">Home</a>
     </div>
-    <div class="level1">
+    <div class="level2">
         <a href="shopbypet.php" class="topItem">Shop by Pet</a>
         <div class="level2">
             <p><a href="#">Dog Food </a></p>
@@ -31,12 +31,8 @@
     </div>
     <div class="level1">
         <a href="storelocation.php" class="topItem">Store Location</a>
-        <div class="level2">
-            <p><a href="#">item 4</a></p>
-            <p><a href="#">item 5</a></p>
-            <p><a href="#">item 6</a></p>
-        </div>
     </div>
+
     <div class="level1">
         <a href="products.html">Products</a>
     </div>

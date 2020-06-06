@@ -9,13 +9,6 @@
 
 </head>
 <body id="page2">
-<?php
-include_once "header.php";
-?>
-
-
-<!--This is my homework today-->
-
 <div id="header">
     <div class="topnav">
         <img src="image/checkout.png" height="50" width="50"/>
@@ -26,28 +19,9 @@ include_once "header.php";
     <h3><img src="image/logo.png" height="50" width="50"/><br>
         The Pet Meal
     </h3>
-    <div id = "nav">
-
-
-        <ul>
-            <li><a href="index.php" ><b>Home</b></a></li>
-            <li><a href="shopbypet.php"><b>Shop by Pet</b></a>
-                <div class="level2">
-
-                    <p><a href="#">item 4</a></p>
-
-                    <p><a href="#">item 5</a></p>
-
-                    <p><a href="#">item 6</a></p>
-
-                </div>
-            </li>
-            <li><a href= "storelocation.php"><b>Store Location</b></a></li>
-            <li><a href="products.html" class="active"><b>Products</b></a></li>
-            <li><a href="loginregister.php"><b>Log In/Register</b></a></li>
-            <li><a href="checkout.html" class="active"><b>Checkout</b></a></li>
-        </ul>
-    </div>
+    <?php
+    include_once "header.php";
+    ?>
 
     <div id="main">
         <img src="image/doghd.jpeg" />

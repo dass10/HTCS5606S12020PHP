@@ -48,7 +48,7 @@ float: right;
 .level1{
     vertical-align: top;
     display:inline-block;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 #nav a{
@@ -270,8 +270,7 @@ span{
     position: relative;
 }
 
-
-    .inner-footer{
+.inner-footer{
         width: 80%;
         margin: auto;
         padding: 10px 10px;

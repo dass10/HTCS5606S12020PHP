@@ -11,16 +11,16 @@ body{
 }
 /*search bar*/
 .topnav {
-    overflow: hidden;
-
+    overflow: visible;
     border-radius: 5px;
 }
+/*checkout image*/
 .topnav img{
 float: right;
 }
-
+/*search bar*/
 .topnav input[type=text] {
-    float: inherit;
+    float: right;
     text-align: center;
     padding: 10px;
     margin-top: 2px;

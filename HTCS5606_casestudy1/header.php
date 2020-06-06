@@ -13,7 +13,7 @@
 
 </head>
 <body>
-<h1>logo</h1>
+
 <div id="nav">
     <div class="level1">
         <a href="#">one level</a>

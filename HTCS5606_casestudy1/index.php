@@ -9,12 +9,6 @@
 
 </head>
 <body id="page1">
-<?php
-include_once "header.php";
-?>
-
-<!--This is my homework today-->
-
 <div id="header">
     <div class="topnav">
         <img src="image/checkout.png" height="50" width="50"/>
@@ -25,6 +19,10 @@ include_once "header.php";
     <h3><img src="image/logo.png" height="50" width="50"/><br>
         The Pet Meal
     </h3>
+    <?php
+    include_once "header.php";
+    ?>
+
 
     <div id="borderimg">
         <img src="image/kitty.jpeg" id="kitty"/>

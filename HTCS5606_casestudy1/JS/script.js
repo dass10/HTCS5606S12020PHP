@@ -35,6 +35,23 @@ $(document).ready(function () {
 
         $(this).children("div").hide();
     });
+    $(".level3").mouseleave(function () {
+
+        $(this).next().css("display", "block");
+    });
+    $(".level4").mouseleave(function () {
+
+        $(this).next().css("display", "block");
+    });
+    $(".level5").mouseleave(function () {
+
+        $(this).next().css("display", "block");
+    });
+    $(".level6").mouseleave(function () {
+
+        $(this).next().css("display", "block");
+    });
+
 });
 
 

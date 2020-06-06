@@ -29,17 +29,17 @@
             <p><a href="#">Fish Food</a></p>
         </div>
     </div>
-    <div class="level1">
+    <div class="level3">
         <a href="storelocation.php" class="topItem">Store Location</a>
     </div>
 
-    <div class="level1">
+    <div class="level4">
         <a href="products.html">Products</a>
     </div>
-    <div class="level1">
+    <div class="level5">
         <a href="loginregister.php">Log In/Register</a>
     </div>
-    <div class="level1">
+    <div class="level6">
         <a href="checkout.php">Checkout</a>
     </div>
 </div>

@@ -25,7 +25,16 @@ include_once "header.php";
     <h3><img src="image/logo.png" height="50" width="50"/><br>
         The Pet Meal
     </h3>
-
+    <div id = "nav">
+        <ul>
+            <li><a href="index.php" ><b>Home</b></a></li>
+            <li><a href="shopbypet.php"><b>Shop by Pet</b></a></li>
+            <li><a href= "storelocation.php"><b>Store Location</b></a></li>
+            <li><a href="products.html" class="active"><b>Products</b></a></li>
+            <li><a href="loginregister.php"><b>Log In/Register</b></a></li>
+            <li><a href="checkout.html" class="active"><b>Checkout</b></a></li>
+        </ul>
+    </div>
     <div id="borderimg">
         <img src="image/kitty.jpeg" id="kitty"/>
         <img src="image/guinea pig.jpeg" id="img2"/>

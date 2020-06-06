@@ -24,7 +24,7 @@
 <body>
 <div id="nav">
     <div class="level1">
-        <a href="#">one level</a>
+        <a href="index.php">Home</a>
     </div>
     <div class="level1">
         <a href="shopbypet.php" class="topItem">Shop By Pet</a>

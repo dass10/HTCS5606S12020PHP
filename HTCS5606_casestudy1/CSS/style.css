@@ -37,11 +37,11 @@ float: right;
 #nav{
     position: relative;
     height: 40px;
-    z-index:10;
+    z-index:30;
     margin: 5px;
     overflow: visible;
     background-color: royalblue;
-    border-radius: 5px;
+   border: blue;
 
 }
 

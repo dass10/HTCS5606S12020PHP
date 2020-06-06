@@ -39,14 +39,14 @@ float: right;
     I need position to be something, I recommend relative*/
     /*z-index is something like layer*/
     position: relative;
-    height: 30px;
+    height: 40px;
     z-index:10;
 }
 
 .level1{
     vertical-align: top;
     display:inline-block;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 #nav a{

@@ -6,6 +6,7 @@
  * Purpose:for User
  */
 
+
 class User
 {
  public $id; //public friend private protect for a variable
@@ -60,5 +61,13 @@ class User
         $this->password = $password;
     }
 //They are my methods
+    public function save(){
+       $dbObject =(new DB();
+       $dbconn = $dbObject->connection;
+       $sql = "insert into Users values (this->id, $this->password, $this->name)";
+       $dbconn->query($sql);
+       echo "saved to database";
+
+    }
 
 }

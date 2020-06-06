@@ -16,10 +16,10 @@
 
 <div id="nav">
     <div class="level1">
-        <a href="#">Home</a>
+        <a href="index.php">Home</a>
     </div>
     <div class="level1">
-        <a href="#" class="topItem">Shop by Pet</a>
+        <a href="shopbypet.php" class="topItem">Shop by Pet</a>
         <div class="level2">
             <p><a href="#">Dog Food </a></p>
             <p><a href="#">Cat Food</a></p>
@@ -30,7 +30,7 @@
         </div>
     </div>
     <div class="level1">
-        <a href="#" class="topItem">Store Location</a>
+        <a href="storelocation.php" class="topItem">Store Location</a>
         <div class="level2">
             <p><a href="#">item 4</a></p>
             <p><a href="#">item 5</a></p>
@@ -38,13 +38,13 @@
         </div>
     </div>
     <div class="level1">
-        <a href="#">Products</a>
+        <a href="products.html">Products</a>
     </div>
     <div class="level1">
-        <a href="#">Log In/Register</a>
+        <a href="loginregister.php">Log In/Register</a>
     </div>
     <div class="level1">
-        <a href="#">Checkout</a>
+        <a href="checkout.html">Checkout</a>
     </div>
 </div>
 

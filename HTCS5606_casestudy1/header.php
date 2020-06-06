@@ -16,9 +16,7 @@
         });
     });
 </script>
-    <?php
-    include_once "style.css";
-    ?>
+
 
 </head>
 <body>

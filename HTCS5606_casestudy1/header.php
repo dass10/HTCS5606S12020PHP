@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <title>Drop Down Menu</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <?php
-    include_once "style.css";
-    ?>
-    <?php
-    include_once "script.js";
-    ?>
+
+
 
 </head>
 <body>
+<?php
+include_once "style.css";
+?>
+
+<?php
+include_once "script.js";
+?>
 
 <div id="nav">
     <div class="level1">

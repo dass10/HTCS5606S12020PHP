@@ -35,9 +35,7 @@ float: right;
 
 
 #nav{
-    /*if I want to make navigation bar always in front of everything,
-    I need position to be something, I recommend relative*/
-    /*z-index is something like layer*/
+
     position: relative;
     height: 40px;
     z-index:10;

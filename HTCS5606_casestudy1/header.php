@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="level1">
-        <a href="products.php">Products</a>
+        <a href="products.html">Products</a>
     </div>
     <div class="level1">
         <a href="loginregister.php">Log In/Register</a>

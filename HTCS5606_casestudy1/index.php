@@ -25,27 +25,7 @@ include_once "header.php";
     <h3><img src="image/logo.png" height="50" width="50"/><br>
         The Pet Meal
     </h3>
-    <div id="nav">
-        <div class="level1">
-            <a href="#">one level</a>
-        </div>
-        <div class="level1">
-            <a href="#" class="topItem">two levels</a>
-            <div class="level2">
-                <p><a href="#">item 1</a></p>
-                <p><a href="#">item 2</a></p>
-                <p><a href="#">item 3</a></p>
-            </div>
-        </div>
-        <div class="level1">
-            <a href="#" class="topItem">two levels</a>
-            <div class="level2">
-                <p><a href="#">item 4</a></p>
-                <p><a href="#">item 5</a></p>
-                <p><a href="#">item 6</a></p>
-            </div>
-        </div>
-    </div>
+
     <div id="borderimg">
         <img src="image/kitty.jpeg" id="kitty"/>
         <img src="image/guinea pig.jpeg" id="img2"/>
@@ -53,7 +33,7 @@ include_once "header.php";
         <img src="image/rabbit.jpeg" id="img4"/>
         <img src="image/dog.jpeg" id="img5"/>
     </div>
-</div>
+
 <div id="main">
 
 <div id ="border box">

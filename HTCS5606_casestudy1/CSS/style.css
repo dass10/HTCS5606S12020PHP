@@ -38,10 +38,11 @@ float: right;
     position: relative;
     height: 40px;
     z-index:30;
-    margin: 5px;
+    margin: 30px;
+    padding: inherit;
     overflow: visible;
     background-color: royalblue;
-   border: blue;
+
 
 }
 

@@ -29,7 +29,7 @@ $(document).ready(function () {
     });
     $(".level1").mouseleave(function () {
 
-        $(this).children("div").hide();
+        $(this).next().css("display", "block");
     });
     $(".level2").mouseleave(function () {
 

@@ -44,7 +44,7 @@
         <a href="loginregister.php">Log In/Register</a>
     </div>
     <div class="level1">
-        <a href="checkout.html">Checkout</a>
+        <a href="checkout.php">Checkout</a>
     </div>
 </div>
 

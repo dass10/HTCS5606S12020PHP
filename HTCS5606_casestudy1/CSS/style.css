@@ -37,7 +37,7 @@ float: right;
     position: relative;
     height: 50px;
     z-index:30;
-    overflow: visible;
+    overflow: hidden;
     background-color: royalblue;
     list-style-type: none;
     margin: 0;

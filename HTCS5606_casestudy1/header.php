@@ -4,20 +4,9 @@
     <meta charset="UTF-8">
     <title>Drop Down Menu</title>
     <link rel="stylesheet" href="CSS/style.css">
-
+    <script src="JS/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>$(document).ready(function () {
-        $(".topItem").mouseenter(function () {
 
-            $(this).next().css("display", "block");
-        });
-        $(".level1").mouseleave(function () {
-            // I don't care this divider has children divider (class: level2) or not,
-            // if it has level2 divider, when my mouse left, I hide this divider.
-            $(this).children("div").hide();
-        });
-    });
-</script>
 
 
 </head>

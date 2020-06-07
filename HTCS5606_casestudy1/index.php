@@ -21,9 +21,6 @@
     <?php
     include_once "header.php";
     ?>
-    <?php
-    include_once "footer.php";
-    ?>
 
 
     <div id="borderimg">
@@ -53,9 +50,11 @@
     Click & Collect (now available at our Auckland and Wellington store.)
 
 </div>
-
-
 </div>
+    <?php
+    include_once "footer.php";
+    ?>
+
 
 </body>
 </html>

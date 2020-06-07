@@ -97,15 +97,11 @@
         </div>
     </div>
 
-
-        </td>
-    </tr>
-</div>
 <div id="main">
     <div id="image">
         <img src="image/dg.jpg" />
 
-
+    </div>
 </div>
     <!--Footer-->
     <?php

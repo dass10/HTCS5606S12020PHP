@@ -67,9 +67,7 @@ float: right;
 }
 
 .level2{
-    horiz-align: center;
-    display:inline-block;
-    margin-left: 20px;
+    display: flex;
 }
 
 

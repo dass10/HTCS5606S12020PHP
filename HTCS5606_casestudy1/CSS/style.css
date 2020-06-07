@@ -68,6 +68,7 @@ float: right;
 
 .level2{
     display: flex;
+    float: left;
 }
 
 

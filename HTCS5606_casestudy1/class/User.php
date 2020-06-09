@@ -41,7 +41,7 @@ class User
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                $category = new Category($row["id"], $row["name"], $row["pictur"]); //each row in tab
+                $category = new Category($row["id"], $row["name"], $row["image"]); //each row in tab
                 array_push($categories, $category); //push category to category array
             }
         }
@@ -56,13 +56,14 @@ class User
      */
     public function  showProductsByCategory($categoryID){
         $conn = (new DB())->connection;
-        $sql = "select * from Product where categoryID=".$categoryID; //. means merge two string
+        $sql = "select * from Product where categoryid=".$categoryID; //. means merge two string
         $products = array();
         $result = $conn->query($sql);
         if ($result->num_rows>0){
             while ($row = $result->fetch_assoc()){
-                $product = new Product($row["id"], $row["name"], $row["price"],
-                $row["description"], $row["categoryID"]);
+                $product = new Product($row["id"], $row["name"], $row["categoryid"], $row["image"],
+                    $row["price"], $row["description"]);
+                array_push($products, $product);
             }
         }
 

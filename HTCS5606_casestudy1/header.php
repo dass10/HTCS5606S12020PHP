@@ -26,7 +26,7 @@
             <p><a href="#">Fish Food</a></p>
         </div>
     </div>
-   <!-- <div class="level1">
+    <div class="level1">
         <a href="storelocation.php">Store Location</a>
     </div>
     <div class="level1">
@@ -40,17 +40,8 @@
     </div>
 
 
-</div>-->
-    <?php
-    include_once "class/User.php";
-    $user = new User(null, "", "", "");
-    $categories = $user->viewCategories();
-    $i = 0;
-    while ($i <sizeof($categories)){
-        echo  "<a href='products.htmlcategoryID=".$category->id."'>".$category->name.</a>";
-        $i = $i + 1;
-    }
-    ?>
+</div>
+
 
 </body>
 </html>

@@ -10,7 +10,20 @@ class Category
 {
     public $id;
     public $name;
-    public $picture;
+    public $image;
+
+    /**
+     * Category constructor.
+     * @param $id
+     * @param $name
+     * @param $image
+     */
+    public function __construct($id, $name, $image)
+    {
+        $this->id = $id;
+        $this->name = $name;
+        $this->image = $image;
+    }
 
 
 }

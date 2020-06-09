@@ -40,7 +40,7 @@
         <a href="storelocation.php">Store Location</a>
     </div>
     <div class="level1">
-        <a href="products.html">Products</a>
+        <a href="product.php">Products</a>
     </div>
     <div class="level1">
         <a href="loginregister.php">Log In/Register</a>

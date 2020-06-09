@@ -12,7 +12,7 @@
 </head>
 <body>
 <div id="header">
-    div id="header">
+
     <div class="topnav">
 
         <input type="text" placeholder="Search..">

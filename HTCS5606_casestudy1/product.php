@@ -20,7 +20,7 @@ include_once "header.php";
             <div class="clear"></div>
             <div class="items">
                 <div class="item">
-                    <img src="image/DryCat%20Food1.jpeg" height="150" width="150"/>
+                    <img src="image/drycatfood1.jpeg" height="150" width="150"/>
                     <br>
                     <h2>Adult Oral Care Dry Cat Food<br>Available in 2Kg and 4Kg</h2>
                     <p>PRICE: $47.99 - $86.99</p>

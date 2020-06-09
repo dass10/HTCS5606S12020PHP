@@ -22,15 +22,15 @@ include_once "header.php";
                 <div class="item">
                     <img src="image/drycatfood1.jpeg" height="150" width="150"/>
                     <br>
-                    <h2>Adult Oral Care Dry Cat Food<br>Available in 2Kg and 4Kg</h2>
-                    <p>PRICE: $47.99 - $86.99</p>
+                    <h2>Adult Oral Care Dry Cat Food</h2>
+                    <p>PRICE: $47.99 </p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>
                 </div>
 
                 <div class="item">
                     <img src="image/drycatfood.jpeg" height="150" width="150"/><br>
-                    <h2>Grain Free Trout Dry Cat Food<br>Available in 1.13Kg and 2.27Kg</h2>
-                    <p>PRICE: $23.99 - $39.99</p>
+                    <h2>Grain Free Trout Dry Cat Food</h2>
+                    <p>PRICE: $23.99</p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>
                 </div>
 

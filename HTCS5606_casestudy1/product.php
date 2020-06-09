@@ -37,7 +37,7 @@ include_once "header.php";
                 <div class="item">
                     <img src="image/kittenfd.jpeg" height="150" width="150"/><br>
                     <h2>Royal Canin Second Age Kitten</h2>
-                    <p>PRICE: $38.39 - $121.59</p>
+                    <p>PRICE: $38.39 </p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>
                 </div>
 
@@ -76,15 +76,15 @@ include_once "header.php";
                 <div class="item">
                     <img src="image/dogfd.jpeg" height="150" width="150"/>
 
-                    <h2>Purely Pets Frozen Beef & Lamb<br>Available in 1kg and 3Kg pack</h2>
-                    <p>PRICE: $9.99 - $24.99</p>
+                    <h2>Purely Pets Frozen Beef & Lamb</h2>
+                    <p>PRICE: $9.99 </p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>
                 </div>
 
                 <div class="item">
                     <img src="image/dogfood1.jpeg" height="150" width="150"/><br>
 
-                    <h2>Primal Chicken & Vegetables<br>Dog Food 390g</h2>
+                    <h2>Primal Chicken & Vegetables</h2>
                     <p>PRICE: $3.39</p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>
                 </div>
@@ -92,9 +92,9 @@ include_once "header.php";
                 <div class="item">
                     <img src="image/dogfood2.png" height="150" width="150"/>
                     <br>
-                    <h2>K9 Lamb Green Tripe-Booster<br>Available in 170g and 370g
+                    <h2>K9 Lamb Green Tripe-Booster
                     </h2>
-                    <p>PRICE: $4.29 - $6.39</p>
+                    <p>PRICE: $4.29</p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>
                 </div>
 

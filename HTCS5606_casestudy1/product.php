@@ -198,7 +198,7 @@ include_once "header.php";
 
             <a href="https://www.facebook.com/"><img src="image/fb.jpg" height="50" width="50"/><br><br></a>
 
-            <img src="image/call us.jpg"  height="50" width="50" /> +64220440190
+            <img src="image/call us.jpg" height="50" width="50" /> +64220440190
 
 
         </div>

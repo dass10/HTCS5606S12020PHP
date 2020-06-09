@@ -35,7 +35,7 @@
             <a href="https://www.facebook.com/"><img src="image/fb.jpg" height="20" width="20"/><br><br></a>
 
 
-            <img src="https://dass10.github.io/HTCS5606_casestudy1/image/call us.jpg"  height="50" width="50" /> +64220440190
+            <img src="image/call us.jpg"  height="50" width="50" /> +64220440190
 
 
         </div>
@@ -43,7 +43,7 @@
         <div class="footer-items">
             <h1>Join our NewsLetter</h1>
             <p>Be the first to Hear about our New Arrivals and Special Deals</p>
-            <img src="image/sign up.png" height="270" width="270"/>
+            <img src="image/sign up.png"/>
         </div>
     </div>
 </div>

@@ -28,14 +28,14 @@
                 </div>
 
                 <div class="item">
-                    <img src="image/DryCatFood.jpeg" height="150" width="150"/><br>
+                    <img src="image/drycatfood.jpeg" height="150" width="150"/><br>
                     <h2>Grain Free Trout Dry Cat Food<br>Available in 1.13Kg and 2.27Kg</h2>
                     <p>PRICE: $23.99 - $39.99</p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>
                 </div>
 
                 <div class="item">
-                    <img src="image/Kittenfd.jpeg" height="150" width="150"/><br>
+                    <img src="image/kittenfd.jpeg" height="150" width="150"/><br>
                     <h2>Royal Canin Second Age Kitten<br>Available in 2Kg,3Kg and 10Kg</h2>
                     <p>PRICE: $38.39 - $121.59</p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>
@@ -49,7 +49,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="image/WetCatFood.png" height="150" width="150"/><br>
+                    <img src="image/wetcatfood.png" height="150" width="150"/><br>
                     <h2>Grain Free Chicken Wet Cat Food</h2>
                     <p>PRICE: $45.99</p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>
@@ -82,7 +82,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="image/dog food 1.jpeg" height="150" width="150"/><br>
+                    <img src="image/dogfood1.jpeg" height="150" width="150"/><br>
 
                     <h2>Primal Chicken & Vegetables<br>Dog Food 390g</h2>
                     <p>PRICE: $3.39</p>
@@ -90,7 +90,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="image/dog food2.png" height="150" width="150"/>
+                    <img src="image/dogfood2.png" height="150" width="150"/>
                     <br>
                     <h2>K9 Lamb Green Tripe-Booster<br>Available in 170g and 370g
                     </h2>
@@ -99,7 +99,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="image/DogRoll.jpeg" height="150" width="150"/>
+                    <img src="image/dogRoll.jpeg" height="150" width="150"/>
                     <br>
                     <h2>Possyum Supreme Dog Roll</h2>
                     <p>PRICE: $6.99</p>

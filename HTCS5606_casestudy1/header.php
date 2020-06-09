@@ -11,6 +11,15 @@
 
 </head>
 <body>
+<div id="header">
+    div id="header">
+    <div class="topnav">
+
+        <input type="text" placeholder="Search..">
+    </div>
+    <h3><img src="image/logo.png" height="50" width="50"/><br>
+        The Pet Meal
+    </h3>
 <div id="nav">
     <div class="level1">
         <a href="index.php">Home</a>

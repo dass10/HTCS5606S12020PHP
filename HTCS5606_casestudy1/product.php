@@ -7,13 +7,13 @@
     <script src="JS/script.js"></script>
 </head>
 <body id="page4">
-<div id="header">
-    <h3><img src="image/logo.png" height="50" width="50"/><br>
-        The Pet Meal
-    </h3>
+
+<?php
+include_once "header.php";
+?>
 
 
-    <div id="main">
+<div id="main">
         <div class="wrapper">
             <h1>CAT FOOD </h1>
             <span><i class="shoping-cart"></i></span>

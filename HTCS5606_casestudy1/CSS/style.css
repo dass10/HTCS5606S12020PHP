@@ -52,14 +52,7 @@ float: right;
 }
 
 #nav a{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 20px 40px;
-
-    border-radius: 2px;
-    font-family: "Bookman Old Style";
-    font-size: 20px;
+   text-decoration: none;
 }
 /*hover */
 #nav a:hover {
@@ -67,7 +60,7 @@ float: right;
 }
 
 .level2{
-
+    display: none;
 }
 
 

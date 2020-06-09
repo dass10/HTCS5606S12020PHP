@@ -45,5 +45,7 @@
             <p>Be the first to Hear about our New Arrivals and Special Deals</p>
             <img src="image/sign up.png"/>
         </div>
+
+        © 2020 The Pet Meal, All rights reserved
     </div>
 </div>

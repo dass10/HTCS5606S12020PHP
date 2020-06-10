@@ -17,12 +17,13 @@
         <div class="polaroid">
             <img src="image/store1.jpg" height="194" width="260"/>
             <div class="container">
-        <p><h2>SOUTH NEW ZEALAND</h2><a href="https://goo.gl/maps/7f8H133nke8RXUnA8"</a>
-        Office Hours: 9am-8 pm Monday to Friday
-        Phone:- +64 7 928 10401
-        Email:- sales@thepetmeal.co.nz
-        Auckland:-4322 ghost street
-        Mt Maunganui South New Zealand</p>
+        <p><h2>SOUTH NEW ZEALAND</h2><a href="https://goo.gl/maps/mut8AYnLc3VK3hbp6"</a>
+                Address:-54 Gorge Road,Queenstown 9300
+                South New Zealand
+                Office Hours: 9am-8 pm Monday to Friday
+                Phone:- +64 7 928 10401
+                Email:- sales@thepetmeal.co.nz
+        </p>
     </div>
     </div>
 

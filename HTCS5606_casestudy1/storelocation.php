@@ -17,7 +17,7 @@
         <div class="polaroid">
             <img src="image/store1.jpg" height="194" width="260"/>
             <div class="container">
-        <p><h2>SOUTH NEW ZEALAND</h2><a href="https://goo.gl/maps/mut8AYnLc3VK3hbp6"</a>
+        <p><h2>SOUTH NEW ZEALAND<a href="https://goo.gl/maps/mut8AYnLc3VK3hbp6"</a></h2>
                 Address:-54 Gorge Road,Queenstown 9300
                 South New Zealand
                 Office Hours: 9am-8 pm Monday to Friday

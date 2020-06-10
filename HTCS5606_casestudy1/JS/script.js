@@ -23,127 +23,15 @@ function login() {
 }
 
 //add to cart
-
+total = 0;
 function addToCart(e) {
-    cart = document.getElementById("cartDiv");
-    switch (e.id) {
-        case "addfishfood1":
-            qty = document.getElementById("fishfood1Qty").value;
-            cart
-                .insertAdjacentHTML(
-                    'beforeend',
-                    '<p>fishfood1: <input type="number" class="cartInput" id = "cartfishfood1" pName = "fishfood1" price="9.99" value="'
-                    + qty
-                    + '"> Price:$'
-                    + (Number(qty) * 9.99)
-                    + '</p>');
-            break;
-        case "addfishfood":
-            qty = document.getElementById("fishfoodQty").value;
-            cart
-                .insertAdjacentHTML(
-                    'beforeend',
-                    '<p>fishfood: <input type="number" class="cartInput" id = "cartfishfood" pName = "fishfood" price="11.99" value="'
-                    + qty
-                    + '"> Price:$'
-                    + (Number(qty) * 11.99)
-                    + '</p>');
-            break;
-        case "addpetfd":
-            qty = document.getElementById("petfdQty").value;
-            cart
-                .insertAdjacentHTML(
-                    'beforeend',
-                    '<p>petfd: <input type="number" class="cartInput" id = "cartpetfd" pName = "petfd" price="19.99" value="'
-                    + qty
-                    + '"> Price:$'
-                    + (Number(qty) * 19.99)
-                    + '</p>');
-            break;
-        case "addchickfood":
-            qty = document.getElementById("chickfoodQty").value;
-            cart
-                .insertAdjacentHTML(
-                    'beforeend',
-                    '<p>chickfood: <input type="number" class="cartInput" id = "cartchickfood" pName = "chickfood" price="19.99" value="'
-                    + qty
-                    + '"> Price:$'
-                    + (Number(qty) * 19.99)
-                    + '</p>');
-            break;
-        case "addchickfd1":
-            qty = document.getElementById("chickfd1Qty").value;
-            cart
-                .insertAdjacentHTML(
-                    'beforeend',
-                    '<p>chickfd1: <input type="number" class="cartInput" id = "cartchickfd1" pName = "chickfd1" price="19.99" value="'
-                    + qty
-                    + '"> Price:$'
-                    + (Number(qty) * 19.99)
-                    + '</p>');
-            break;
-        case "henfd":
-            qty = document.getElementById("henfdQty").value;
-            cart
-                .insertAdjacentHTML(
-                    'beforeend',
-                    '<p>henfd: <input type="number" class="cartInput" id = "henfd" pName = "henfd" price="44.99" value="'
-                    + qty
-                    + '"> Price:$'
-                    + (Number(qty) * 44.99)
-                    + '</p>');
+    cart = $("#cartDiv");
+    name1 = $(e).attr("name");
+    price = $(e).attr("price");
+    qty = $(e).prev().val();
 
-            break;
-        case "parrotfd":
-            qty = document.getElementById("parrotfd").value;
-            cart
-                .insertAdjacentHTML(
-                    'beforeend',
-                    '<p>parrotfd: <input type="number" class="cartInput" id = "parrotfd" pName = "parrotfd" price="19.99" value="'
-                    + qty
-                    + '"> Price:$'
-                    + (Number(qty) * 19.99)
-                    + '</p>');
-
-            break;
-        case "henfd1":
-            qty = document.getElementById("henfd1").value;
-            cart
-                .insertAdjacentHTML(
-                    'beforeend',
-                    '<p>henfd1: <input type="number" class="cartInput" id = "henfd1" pName = "henfd1" price="10.99" value="'
-                    + qty
-                    + '"> Price:$'
-                    + (Number(qty) * 10.99)
-                    + '</p>');
-
-            break;
-        case "birdfd":
-            qty = document.getElementById("birdfd").value;
-            cart
-                .insertAdjacentHTML(
-                    'beforeend',
-                    '<p>birdfd: <input type="number" class="cartInput" id = "birdfd" pName = "birdfd" price="14.99" value="'
-                    + qty
-                    + '"> Price:$'
-                    + (Number(qty) * 14.99)
-                    + '</p>');
-
-            break;
-        case "birdfd1":
-            qty = document.getElementById("birdfd1").value;
-            cart
-                .insertAdjacentHTML(
-                    'beforeend',
-                    '<p>birdfd1: <input type="number" class="cartInput" id = "birdfd1" pName = "birdfd1" price="9.99" value="'
-                    + qty
-                    + '"> Price:$'
-                    + (Number(qty) * 9.99)
-                    + '</p>');
-        default:
-        // code block
-    }
-
+    cart.append("<p>Name: "+name1+"  Price: "+Number(price)*Number(qty) +"</p>");
+    total = total + Number(price)*Number(qty);
 }
 
 function addToInvoice() {

@@ -35,7 +35,8 @@ include_once "header.php";
                     <br>
                     <h2><?php echo $product->description; ?></h2>
                     <p>PRICE: $<?php echo $product->price; ?></p> <p>Qty:<input class="qty" id="parrotfdQty" type="number"></p>
-                    <button class="add-to-cart" type="button">ADD TO CART</button>
+                    <button name="<?php echo $product->description; ?>"
+                            price = "<?php echo $product->price; ?>" class="add-to-cart" type="button" onclick="addToCart(this)">ADD TO CART</button>
                 </div>
                 <?php
                 $i = $i + 1;
@@ -45,7 +46,11 @@ include_once "header.php";
     </div>
 
 </div>
-
+<div id="rightside">
+    <p>Cart:</p>
+    <div id="cartDiv"></div>
+    <button id="showInvoiceBut">Invoice</button>
+</div>
 <div class="footer">
     <div class="inner-footer">
         <div class="footer-items">

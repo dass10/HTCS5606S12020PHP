@@ -3,7 +3,7 @@
 
 <div id="header">
     <div class="topnav">
-        <a href="checkout.php" <img src="image/checkout.png" height="50" width="50" /></a>
+        <a href="checkout.php"> <img src="image/checkout.png" height="50" width="50" /></a>
         <input type="text" placeholder="Search..">
     </div>
 

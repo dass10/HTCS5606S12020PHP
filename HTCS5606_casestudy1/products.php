@@ -34,7 +34,7 @@ include_once "header.php";
                     <img src="image/<?php echo $product->image; ?>" height="150" width="150"/>
                     <br>
                     <h2><?php echo $product->description; ?></h2>
-                    <p>PRICE: $<?php echo $product->price; ?></p> <p>Qty:<input class="qty" id="parrotfdQty" type="number"></p>
+                    <p>PRICE: $<?php echo $product->price; ?></p> Qty:<input class="qty" id="parrotfdQty" type="number">
                     <button name="<?php echo $product->description; ?>"
                             price = "<?php echo $product->price; ?>" class="add-to-cart" type="button" onclick="addToCart(this)">ADD TO CART</button>
                 </div>

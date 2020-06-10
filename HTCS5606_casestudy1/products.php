@@ -15,7 +15,7 @@ include_once "header.php";
 ?>
 <div id="main">
     <div class="wrapper">
-        <h1>CAT FOOD </h1>
+        <h1> FOOD </h1>
         <div class="items">
             <?php
 //            include_once "class/User.php";

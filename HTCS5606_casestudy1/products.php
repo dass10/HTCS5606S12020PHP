@@ -15,7 +15,7 @@ include_once "header.php";
 ?>
 <div id="main">
     <div class="wrapper">
-        <h1> FOOD </h1>
+
         <div class="items">
             <?php
 //            include_once "class/User.php";
@@ -59,43 +59,6 @@ include_once "header.php";
 </div>
 
 
-<div class="footer">
-    <div class="inner-footer">
-        <div class="footer-items">
-            <h1>Help</h1>
-            <p>Shipping</p>
-            <p>Privacy Policy</p>
-            <p>Terms & Conditions</p>
-            <p>Return & Exchange</p>
-        </div>
-        <div class="footer-items">
-            <h1>Company Info</h1>
-            <p>About us</p>
-            <p>FAQ</p>
-            <p>Contact us</p>
-        </div>
-
-        <div class="footer-items">
-            <h1>Connect With us</h1>
-
-            <a href="https://www.instagram.com/"><img src="image/insta.jpg" height="50" width="50"/></a>
-
-            <a href="https://twitter.com/"><img src="image/twitter.jpg" height="50" width="50"/></a>
-
-            <a href="https://www.facebook.com/"><img src="image/fb.jpg" height="50" width="50"/><br><br></a>
-
-            <img src="image/call us.jpg"  height="50" width="50" /> +64220440190
-
-
-        </div>
-
-        <div class="footer-items">
-            <h1>Join our NewsLetter</h1>
-            <p>Be the first to Hear about our New Arrivals and Special Deals</p>
-            <img src="image/sign up.png" height="270" width="270"/>
-        </div>
-    </div>
-</div>
 
 </body>
 </html>

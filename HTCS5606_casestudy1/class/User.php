@@ -54,9 +54,10 @@ class User
      * @param $categoryID
      * @return product array
      */
-    public function  showProductsByCategory($categoryID){
+    public function showProductsByCategory($categoryID){
         $conn = (new DB())->connection;
         $sql = "select * from Product where categoryid=".$categoryID; //. means merge two string
+//        echo $sql;
         $products = array();
         $result = $conn->query($sql);
         if ($result->num_rows>0){

@@ -15,15 +15,15 @@
     <tr>
         <td id="middlecontent">
         <div class="polaroid">
-            <img src="image/store1.jpg" height="194" width="260"/>
+            <a href="https://goo.gl/maps/mut8AYnLc3VK3hbp6"><img src="image/store1.jpg" height="194" width="260"/></a>
             <div class="container">
         <p><h2>SOUTH NEW ZEALAND</h2>
                 Address:-54 Gorge Road,Queenstown 9300
-                South New Zealand
-                Office Hours: 9am-8 pm Monday to Friday
-                Phone:- +64 7 928 10401
+                South New Zealand<br>
+                Office Hours: 9am-8 pm Monday to Friday<br>
+                Phone:- +64 7 928 10401<br>
                 Email:- sales@thepetmeal.co.nz
-        </p><a href="https://goo.gl/maps/mut8AYnLc3VK3hbp6"</a>
+        </p>
     </div>
     </div>
 

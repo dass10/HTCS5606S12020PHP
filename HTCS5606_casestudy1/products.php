@@ -34,7 +34,7 @@ include_once "header.php";
                     <img src="image/<?php echo $product->image; ?>" height="150" width="150"/>
                     <br>
                     <h2>Adult Oral Care Dry Cat Food<br>Available in 2Kg and 4Kg</h2>
-                    <p>PRICE: $<?php echo $product->price; ?></p>
+                    <p>PRICE: $<?php echo $product->price; ?></p> <p>Qty:<input class="qty" id="parrotfdQty" type="number"></p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>
                 </div>
                 <?php

@@ -49,8 +49,20 @@ include_once "header.php";
 <div id="rightside">
     <p>Cart:</p>
     <div id="cartDiv"></div>
-    <button id="showInvoiceBut">Invoice</button>
+    <button onclick="invoice()" id="showInvoiceBut">Invoice</button>
 </div>
+
+<div id="myModal" class="modal">
+
+    <!-- Invoice content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id = "invoicePlace">Invoice</div>
+    </div>
+
+</div>
+
+
 <div class="footer">
     <div class="inner-footer">
         <div class="footer-items">

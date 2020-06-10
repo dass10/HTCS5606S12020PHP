@@ -33,7 +33,7 @@ include_once "header.php";
                 <div class="item">
                     <img src="image/<?php echo $product->image; ?>" height="150" width="150"/>
                     <br>
-                    <h2>Adult Oral Care Dry Cat Food<br>Available in 2Kg and 4Kg</h2>
+                    <h2><?php echo $product->discription; ?></h2>
                     <p>PRICE: $<?php echo $product->price; ?></p> <p>Qty:<input class="qty" id="parrotfdQty" type="number"></p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>
                 </div>

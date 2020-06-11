@@ -15,76 +15,77 @@
     <tr>
         <td id="middlecontent">
         <div class="polaroid">
-            <a href="https://goo.gl/maps/mut8AYnLc3VK3hbp6"><img src="image/store1.jpg" height="194" width="260"/></a>
+            <a href="https://goo.gl/maps/jY3UbBS8DrcjcQh19"><img src="image/store1.jpg" height="194" width="260"/></a>
             <div class="container">
         <p><h2>SOUTH NEW ZEALAND</h2>
-                Address:-54 Gorge Road,Queenstown 9300
+                Address:-Gorge Road,Queenstown 9300
                 South New Zealand<br>
-                Office Hours: 9am-8 pm Monday to Friday<br>
-                Phone:- +64 7 928 10401<br>
-                Email:- sales@thepetmeal.co.nz
+                Office Hours:9am-8pm Monday to Friday<br>
+                Phone:-+64792810401<br>
+                Email:-sales@thepetmeal.co.nz
         </p>
     </div>
     </div>
 
         <div class="polaroid">
-            <img src="image/store2.jpg" height="194" width="260"/>
+            <a href="https://goo.gl/maps/ncw6dAyFbekasNRR8"><img src="image/store2.jpg" height="194" width="260"/></a>
             <div class="container">
-                <p><h2>Nelson</h2>
-                 Office Hours: 9am-6 pm Monday to Friday
-                Phone:- +64 3 5485877
-                Email:- sales@thepetmeal.co.nz
-                Address:-13 Bolt Road,Tahunanui,Nelson
-                7011
+                <p><h2>NELSON</h2>
+                Address:-Bolt Road,
+                Tahunanui,Nelson 7011
+                 Office Hours:9am-6pm Monday to Friday<br>
+                Phone:-+6435485877<br>
+                Email:-sales@thepetmeal.co.nz
+
         </p>
 </div>
 </div>
     <div class="polaroid">
-        <img src="image/store 3.jpg" height="194" width="260"/>
+        <a href="https://goo.gl/maps/5WBmn6uyh2c9Uar58"><img src="image/store 3.jpg" height="194" width="260"/></a>
                 <div class="container">
-                <p><h2>Auckland</h2>
-                Office Hours: 8:30am-5 pm Monday to Friday
-                 Phone:- +64 9 5735678
-                Email:- sales@thepetmeal.co.nz
-                Address:-519C Mt Wellington Highway, Mt
-                Wellington 1060</p>
+                <p><h2>AUCKLAND</h2>
+                    Address:-Mt Wellington Highway,Mt
+                    Wellington 1060
+                    Office Hours:8:30am-5pm Monday to Friday<br>
+                    Phone:-+6495735678<br>
+                    Email:-sales@thepetmeal.co.nz
+                </p>
         </div>
     </div>
 
 
     <div class="polaroid">
-        <img src="image/store4.jpg" height="194" width="260"/>
+        <a href="https://goo.gl/maps/LPpzJYHBcKqhFYYVA"><img src="image/store4.jpg" height="194" width="260"/></a>
             <div class="container">
             <p><h2>Auckland</h2>
-            Office Hours: 8:30am-6 pm
-                Monday to Friday<br>
-            Phone:- +64 9 3782966<br>
+            Office Hours:8:30am-6pm Monday to Friday<br>
+            Phone:- +6493782966<br>
             Email:- sales@thepetmeal.co.nz
-            Address:-11 Verissimo Drive,2022
+            Address:-Verissimo Drive,2022
             </p>
         </div>
     </div>
 
     <div class="polaroid">
-        <img src="image/store 5.jpg" height="194" width="260"/>
+        <a href="https://goo.gl/maps/WesdqNarpzszffdJA"><img src="image/store 5.jpg" height="194" width="260"/></a>
         <div class="container">
             <p><h2>WELLINGTON</h2>
-            Office Hours: 8:30am-6:30 pm Monday to Saturday<br>
-            Phone:- +64 4 8159432<br>
+            Office Hours: 8:30am-6:30pm Monday to Saturday<br>
+            Phone:- +6448159432<br>
             Email:- sales@thepetmeal.co.nz
-            Address:-139 Centennial Drive,
+            Address:-Centennial Drive,
             Ngauranga Gorge,6035</p>
         </div>
     </div>
 
     <div class="polaroid">
-        <img src="image/store6.jpg" class="center" height="194" width="260"/>
+        <a href="https://goo.gl/maps/M73cLrP7tvrMkL89A"><img src="image/store6.jpg"  height="194" width="260"/></a>
             <div class="container">
             <p><h2>CHRISTCHURCH</h2>
-            Office Hours: 8:30am-4:30 pm Monday to Friday<br>
-            Phone:- +64 3 3360549<br>
-            Email:- sales@thepetmeal.co.nz
-            Address:-119 Carmen Road,Hei Hei 0422 </p>
+            Office Hours:8:30am-4:30pm Monday to Friday<br>
+            Phone:- +6433360549<br>
+            Email:- sales@thepetmeal.co.nz<br>
+            Address:- Carmen Road,Hei Hei 0422 </p>
         </div>
     </div>
 

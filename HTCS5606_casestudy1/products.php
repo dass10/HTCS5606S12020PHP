@@ -57,7 +57,10 @@ include_once "header.php";
     </div>
 
 </div>
-
+<!--Footer-->
+<?php
+include_once "footer.php";
+?>
 
 
 </body>

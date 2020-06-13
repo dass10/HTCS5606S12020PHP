@@ -2,66 +2,131 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Checkout</title>
+    <title>Shweta Assessment 1 Home page</title>
+
+    <script src="JS/script.js"></script>
+    <link rel="stylesheet" href="CSS/checkout.css">
     <link rel="stylesheet" href="CSS/style.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="JS/script.js"></script>
 </head>
-<body>
+<body id="page6">
 
-<?php
-include_once "header.php";
-?>
-<div id="main">
-    <div class="wrapper">
 
-        <div class="items">
-            <?php
-//            include_once "class/User.php";
-//            $user = new User(null, "", "", "");
-            $categoryID = $_GET["categoryID"];
-            $products = $user->showProductsByCategory($categoryID);
-            $i = 0;
-            while ($i < sizeof($products)) {
-                $product = $products[$i];
-                ?>
-                <div class="item">
-                    <img src="image/<?php echo $product->image; ?>" height="150" width="150"/>
-                    <br>
-                    <h2><?php echo $product->description; ?></h2>
-                    <p>PRICE: $<?php echo $product->price; ?></p> Qty:<input class="qty" id="parrotfdQty" type="number">
-                    <button name="<?php echo $product->description; ?>"
-                            price = "<?php echo $product->price; ?>" class="add-to-cart" type="button" onclick="addToCart(this)">ADD TO CART</button>
-                </div>
-                <?php
-                $i = $i + 1;
-            }
-            ?>
+<div id="header">
+
+    <?php
+    include_once "header.php";
+    ?>
+    <tr>
+    <td id="middlecontent">
+
+        <div class="product">
+            <img src="image/fishfood1.jpeg" />
+
+            <p>$9.99 ea</p>
+            <p>
+                Qty:<input class="qty" id="fishfood1Qty" type="number">
+                <button class = "addBut" id="addfishfood1" onclick="addToCart(this)">Add to Cart</button>
+            </p>
         </div>
-    </div>
+        <div class="product">
+            <img src="image/fishfood.jpeg"/>
 
+            <p>$11.99 ea</p>
+            <p>Qty:<input class="qty" id="fishfoodQty" type="number">
+                <button class = "addBut" id="addfishfood" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+        <div class="product">
+            <img src="image/petfd.jpg" />
+
+            <p>$19.99 ea</p>
+            <p>Qty:<input class="qty" id="petfdQty" type="number">
+                <button class = "addBut" id="addpetfd" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+
+        <div class="product">
+            <img src="image/chickfood.jpeg"/>
+
+
+            <p>$19.99 ea</p>
+            <p>Qty:<input class="qty" id="chickfoodQty" type="number">
+                <button class = "addBut" id="addchickfood" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+
+        <div class="product">
+            <img src="image/chickfd1.jpeg" height="510" width="510"/>
+
+
+            <p>$19.99 ea</p>
+            <p>Qty:<input class="qty" id="chickfd1Qty" type="number">
+                <button class = "addBut" id="addchickfd1" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+        <div class="product">
+            <img src="image/henfd.png"/>
+
+
+            <p>$44.99 ea</p>
+            <p>Qty:<input class="qty" id="henfdQty" type="number">
+                <button class = "addBut" id="addhenfd" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+
+        <div class="product">
+            <img src="image/parrotfd.jpeg"/>
+            <p>$19.99 ea</p>
+            <p>Qty:<input class="qty" id="parrotfdQty" type="number">
+                <button class = "addBut" id="addparrotfd" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+
+        <div class="product">
+            <img src="image/henfd1.jpeg" />
+            <p>$10.99 ea</p>
+            <p>Qty:<input class="qty" id="henfood1Qty" type="number">
+                <button class = "addBut" id="henfood1" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+        <div class="product">
+            <img src="image/birdfd.png"/>
+            <p>$14.99 ea</p>
+            <p>Qty:<input class="qty" id="birdfdQty" type="number">
+                <button class = "addBut" id="addbirdfd" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+        <div class="product">
+            <img src="image/birdfd1.jpeg"/>
+            <p>$9.99 ea</p>
+            <p>Qty:<input class="qty" id="birdfd1Qty" type="number">
+                <button class = "addBut" id="addbirdfd1" onclick="addToCart(this)">Add to Cart</button>
+            </p>
+        </div>
+
+    </td>
+
+    <td id="rightside">
+        <p>Cart:</p>
+        <div id="cartDiv"></div>
+        <button id="showInvoiceBut">Invoice</button>
+    </td>
+    </tr>
+    </table>
 </div>
-<div id="rightside">
-    <p>Cart:</p>
-    <div id="cartDiv"></div>
-    <button onclick="invoice()" id="showInvoiceBut">Invoice</button>
-</div>
 
-<div id="myModal" class="modal">
+<div id="voicePage" class="voice">
 
-    <!-- Invoice content -->
-    <div class="modal-content">
+    <!-- Modal content -->
+    <div id="voice-content">
         <span class="close">&times;</span>
-        <div id = "invoicePlace">Invoice</div>
+        <p>Please check your invoice</p>
     </div>
-
 </div>
 <!--Footer-->
 <?php
 include_once "footer.php";
 ?>
-
-
 </body>
 </html>

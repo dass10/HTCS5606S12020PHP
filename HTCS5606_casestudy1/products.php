@@ -17,6 +17,8 @@
     <?php
     include_once "header.php";
     ?>
+
+    <div id="main"></div>
     <tr>
     <td id="middlecontent">
 

@@ -14,7 +14,7 @@
             <h1>Help</h1>
             <p>Shipping</p>
             <p>Privacy Policy</p>
-            <p>Terms & Conditions</p>
+            <a href="terms&conditions.php"><p>Terms & Conditions</p></a>
             <p>Return & Exchange</p>
         </div>
         <div class="footer-items">

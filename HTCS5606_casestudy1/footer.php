@@ -34,7 +34,7 @@
 
             <a href="https://www.facebook.com/"><img src="image/fb.jpg" height="20" width="20"/><br><br></a>
 
-            <img src="image/call us.jpg"  height="50" width="50" /><a +64220440190 </a>
+            <img src="image/call us.jpg"  height="50" width="50" +64220440190 />
 
 
         </div>

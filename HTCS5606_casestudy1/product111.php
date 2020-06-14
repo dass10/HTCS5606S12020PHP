@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="image/DryCatFood.jpeg" height="150" width="150"/><br>
+                    <img src="image/drycatfood.jpeg" height="150" width="150"/><br>
                     <h2>Grain Free Trout Dry Cat Food<br>Available in 1.13Kg and 2.27Kg</h2>
                     <p>PRICE: $23.99 - $39.99</p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>

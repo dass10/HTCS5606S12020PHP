@@ -78,7 +78,7 @@ display: none;
 /*index page main contains*/
 #page1 #main .border:hover
 {
-    box-shadow: inset 0 0 0 45px #53a7ea;
+    box-shadow: inset 0 0 0 45px royalblue;
 }
 #page1 #main .border{
     font-family: "Bookman Old Style";

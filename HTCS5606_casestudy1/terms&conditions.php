@@ -112,7 +112,7 @@ If we are unable to supply you with a product, for example because that product 
 
 We reserve the right to cancel orders at any time where we reasonably suspect that you have not acted wholly in accordance with these terms and conditions.<br><br>
 
-9. Price and Payment<br><br>
+    <h2>9. Price and Payment<br><br></h2>
 
 Price shown will be inclusive of VAT but exclusive of delivery costs.<br><br>
 
@@ -124,13 +124,13 @@ No payment shall be deemed to have been received and no delivery will take place
 The Pet Meal only specify the product RRP where this has been disclosed by the manufacturer or supplier.<br><br>
 
 
-10. Pricing and availability<br><br>
+<h2>10. Pricing and availability<br><br></h2>
 
 If an item is not available at the time of ordering, this will be mentioned as “out of stock” on the product information page. As we process your order, we will inform you by e-mail if any products you order turn out to be unavailable. Please note that dispatch estimates are just that. They are not guaranteed dispatch times and should not be relied upon as such.<br><br>
 
 Despite our efforts, a small number of the products in our catalogue are mispriced. Rest assured, however, that we verify prices as part of our dispatch procedures. If a product's correct price is lower than our stated price, we charge the lower amount and send you the product. If a product's correct price is higher than our stated price, we will, at our discretion, either contact you for instructions before dispatch or cancel your order and notify you of such cancellation.<br><br>
 
-11. Product quality<br><br>
+    <h2>11. Product quality<br><br></h2>
 
 We are under a legal duty to supply goods to you that are in conformity with the contract between us.<br><br>
 
@@ -145,50 +145,49 @@ If you discover a defect in the product as a result of damage in transit, you ar
 The Pet Meal will not incur any responsibility if you fail to store the products appropriately, use them after their expiry date or use a product damaged in transit without having informed The Pet Meal.<br><br>
 
 
-12. Electronic communications<br><br><br>
+<h2>12. Electronic communications<br><br><br></h2>
 
 When you visit The Pet Meal or send e-mails to us, you are communicating with us electronically. We communicate with you by e-mail or by posting notices on the Website. For contractual purposes, you consent to receive communications from us electronically and you agree that all agreements, notices, disclosures and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing. This condition does not affect your statutory rights.<br><br>
 
-17. Our Liability<br><br>
+    <h2>13. Our Liability<br><br></h2>
 
 Although The Pet Meal endeavours to ensure the accuracy of the content placed on this Website, The Pet Meal does not warrant or guarantee its accuracy or correctness or that of any other content or materials referred to in or made available by means of this Website. The material on this Website may be out of date, and we make no commitment to update such material. The material on this Website is provided "as is", without any conditions, warranties or other terms of any kind.<br><br>
 
 In addition, The Pet Meal does not warrant or guarantee that the Website and its operation, its content or the services that make it available are virus free or free of other harmful components, or that your use of this Website and its content will be uninterrupted.<br><br>
 
-In no event shall Pet Supermarket be liable for any damages (including loss of profits, income or revenue, contracts, anticipated savings, data, business, goodwill or wasted expenditure), including without limitation, direct or indirect, special, incidental, or consequential damages, losses or expenses arising in connection with this Website, any of its content, any web browser or the use thereof or inability or use by any party, or in connection with any failure of performance, error, omission, interruption, defect, delay in operation or transmission, computer virus or line or system failure, even if Pet Supermarket or its representatives are advised of the possibility of such damages, losses or expenses, whether caused by negligence or otherwise.<br><br>
+In no event shall The Pet Meal be liable for any damages (including loss of profits, income or revenue, contracts, anticipated savings, data, business, goodwill or wasted expenditure), including without limitation, direct or indirect, special, incidental, or consequential damages, losses or expenses arising in connection with this Website, any of its content, any web browser or the use thereof or inability or use by any party, or in connection with any failure of performance, error, omission, interruption, defect, delay in operation or transmission, computer virus or line or system failure, even if Pet Supermarket or its representatives are advised of the possibility of such damages, losses or expenses, whether caused by negligence or otherwise.<br><br>
 
 The Pet Meal’s liability in contract shall only cover losses that are a reasonably foreseeable and direct consequence of the breach of contract. Pet Supermarket’s total liability in contract (including negligence or breach of statutory duty), misrepresentation, restitution or otherwise, arising in connection with the performance of the contract shall not exceed three times the amount paid for the products under the relevant contract. The Pet Meal shall not be liable for any indirect, special, incidental or consequential damages, losses or expenses arising out of or in connection with the contract.<br><br>
 
-To the extent permitted by applicable law, Pet Supermarket expressly excludes all conditions, warranties and other terms which might otherwise be implied by statute, common law or the law or equity.<br><br>
+To the extent permitted by applicable law, The Pet Meal expressly excludes all conditions, warranties and other terms which might otherwise be implied by statute, common law or the law or equity.<br><br>
 
 Nothing in these conditions affects in any way our liability by law for death or personal injury caused from our negligence or breach of duty or caused by our gross negligence, wilful misconduct or fraudulent misrepresentation.<br><br>
 
-18. Indemnification
-
+    <h2>14. Indemnification</h2>
 You hereby agree to indemnify and hold us fully indemnified as well as indemnify all companies within our group for any losses, costs, actions, proceedings, claims, damages, expenses (including reasonable legal costs and expenses), or liabilities, whatsoever suffered or incurred directly by us or companies within our group as a consequence of your breach or non-observance of these conditions or the contract, your improper use of this Website or in relation to any claim which may be brought against us or any company within our group by a third party in relation to your use of the Website.<br><br>
 
-19. Alteration of Service or Amendments to the Conditions<br><br>
+    <h2>15. Alteration of Service or Amendments to the Conditions<br><br></h2>
 
 We reserve the right to make changes to our Website, policies, and these Conditions of Use & Sale at any time by updating the relevant posting on our website. You will be subject to the policies and Conditions of Use & Sale in force at the time that you use the Website or that you order goods from us, unless any change to those policies or these conditions is required to be made by law or government authority (in which case it will apply to orders previously placed by you).<br><br>
 
-20. Events beyond our reasonable control<br><br>
+    <h2>16. Events beyond our reasonable control<br><br></h2>
 
 We will not be held responsible for any delay or failure to comply with our obligations under these conditions if the delay or failure arises from any cause which is beyond our reasonable control. This condition does not affect your statutory rights.<br><br>
 
-21. Waiver<br><br>
+    <h2>17. Waiver<br><br></h2>
 
 If you breach these conditions and we take no action, we will still be entitled to use our rights and remedies in any other situation where you breach these conditions.<br><br>
 
-22. Severability<br><br>
+    <h2>18. Severability<br><br></h2>
 
 If any of these terms and conditions is deemed to be invalid, void or unenforceable for any reason, that condition shall be deemed severable and the remaining terms and conditions shall not be affected by such invalidity or unenforceability and shall remain in full force and effect.<br><br>
 
-23. Complaints<br><br>
+    <h2>19. Complaints<br><br></h2>
 
 If you have any queries, comments or complaints with respect to the contract, the Website or any products, please contact us immediately by e-mail at sales@thepetmeal.co.nz or phone at our any of the store number listed in our website accross the country.<br><br>
 
 
-24. Governing law and jurisdiction<br><br>
+<h2>20. Governing law and jurisdiction<br><br></h2>
 
 These conditions, your use and access to the Website and any contract brought into existence as a result of usage of this Website are governed by and construed in accordance with the laws of England and Wales, and the application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Any disputes arising in connection thereto shall be subject to the exclusive jurisdiction of the English Courts.<br><br>
 

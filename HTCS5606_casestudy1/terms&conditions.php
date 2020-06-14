@@ -11,8 +11,7 @@ include_once "header.php";
 
 
 <div class="main">
-Terms & Conditions
-Conditions of Use & Sale
+    <h2>Terms & Conditions Conditions of Use & Sale</h2><br>
 Welcome to Thepetmeal.co.nz (the “Website”). This Website is owned and operated by Shweta Das, trading as The Pet Meal , a company registered in New Zealand  under company number 06060026<br>
 The Pet Meal provides access to the Website and we sell our Pet food products to you subject to the conditions set out on this page. For the purposes of these terms "products" shall mean any products agreed to be supplied by us to you in accordance with the terms and conditions set out on this Website.<br><br>
 
@@ -20,7 +19,7 @@ Please read these conditions carefully before using the thepetmeal.co.nz website
 
 Conditions Relating to Your Use of thepetmeal.co.nz<br><br>
 
-1. Your Account<br>
+<h2>1. Your Account<br></h2>
 
 If you use the Website, you are responsible for maintaining the confidentiality of your account, password and any other user identification, and for restricting access to your computer to prevent unauthorised access to your account. You agree to accept responsibility for all activities that occur under your account or password. You should take all necessary steps to ensure that the password is kept confidential and secure and you should inform us immediately if you have any reason to believe that your password has become known to anyone else, or if the password is being, or is likely to be, used in an unauthorised manner.<br>
 
@@ -32,15 +31,15 @@ You may not sign up for more than one account with The Pet Meal per person. For 
 
 We reserve the right to close your account or the account of your referee or to cancel any order where we suspect at our sole discretion that you have opened multiple accounts to assist prescription fraud, to take advantage of the referral program or of discount codes limited to one use per person.<br><br>
 
-2. Privacy and Security<br><br>
+    <h2>2. Privacy and Security<br><br></h2>
 
 Please refer to our Privacy Policy, Security Policy and Cookie Policy.<br>
 
-3. Access to thepetmeal.co.nz<br>
+    <h2>3. Access to thepetmeal.co.nz<br></h2>
 
 We will do our utmost to ensure that availability of the Website will be uninterrupted and that transmissions will be error-free. However, due to the nature of the Internet, this cannot be guaranteed. Also, your access to the Website may occasionally be suspended or restricted to allow for repairs, maintenance, or the introduction of new facilities or services. We will attempt to limit the frequency and duration of any such suspension or restriction.<br><br>
 
-4. Restriction on Use<br><br>
+<h2>4. Restriction on Use<br><br><h2/>
 
 The Pet Meal grants you access to this Website for your personal use but you are not authorised to download (other than page caching) or modify it, or any portion of it, except with the express written consent of The Pet Meal. You may not resale or make any commercial use of this Website or its contents; any collection and use of any product listings, descriptions, or prices; any derivative use of this Website or its contents; any downloading or copying of account information for the benefit of another merchant; or any use of data mining, robots, or similar data gathering and extraction tools.<br><br>
 
@@ -52,7 +51,7 @@ You also may not create and/or publish your own database that features substanti
 
 You must not use the Website in any way that causes, or is likely to cause, the Website or access to it to be interrupted, damaged or impaired in any way.<br><br>
 
-5. Your conduct
+<h2>5. Your conduct<h2/>
 
 You may only purchase products from our Website if you are at least 18 years old.<br>
 
@@ -72,7 +71,7 @@ You must not use the Website for any of the following:<br><br>
 
 • to cause annoyance, inconvenience or needless anxiety.<br>
 
-6. Reviews, comments, communications and other content<br>
+    <h2>6. Reviews, comments, communications and other content<br></h2>
 
 Users of this Website may post reviews, comments and other content; send communications; and submit suggestions, ideas, comments, questions, or other information, as long as the content is not illegal, obscene, abusive, threatening, defamatory, invasive of privacy, infringing of intellectual property rights, or otherwise injurious to third parties, or objectionable and does not consist of or contain software viruses, political campaigning, commercial solicitation, chain letters, mass mailings, or any form of "spam." You may not use a false e-mail address, impersonate any person or entity, or otherwise mislead as to the origin of any content. Pet Supermarket reserves the right (but not the obligation) to remove or edit any content.<br><br>
 
@@ -87,7 +86,7 @@ If you do post content or submit material, and unless we indicate otherwise, you
 
 
 You agree that the rights you grant above are irrevocable during the entire period of protection of your intellectual property rights associated with such content and material. You agree to waive your right to be identified as the author of such content and your right to object to derogatory treatment of such content. You agree to perform all further acts necessary to perfect any of the above rights granted by you to Pet Supermarket, including the execution of deeds and documents, at the request of Pet Supermarket. You represent and warrant that you own or otherwise control all of the rights to the content that you post; that, as at the date that the content or material is submitted to The Pet Meal: (i) the content and material is accurate; (ii) use of the content and material you supply does not breach any applicable The Pet Meal policies or guidelines and will not cause injury to any person or entity (including that the content or material is not defamatory). You agree to indemnify Pet Supermarket for all claims brought by a third party against The Pet Meal arising out of or in connection with a breach of any of these warranties. You recognise that the views expressed by other users on our site do not represent our views or values.<br><br>
-7. Copyright, Trademarks and Other Proprietary Rights
+    <h2>7. Copyright, Trademarks and Other Proprietary Rights</h2>
 
 All the content of this Website, including but not limited to the text, graphics, logos, button icons, images, and software, is protected by copyright, trademarks and/or other intellectual property or proprietary rights owned by or licensed to Pet Supermarket. Except as expressly provided herein, nothing in this Website should be considered as granting any license or right under any copyright, trademark or other intellectual property rights of Pet Supermarket or any third party. You may not use any Pet Supermarket logo or other proprietary graphic or trademark without our express written consent.<br><br><br>
 
@@ -99,7 +98,7 @@ Conditions Relating to the Sale of Products to You<br><br>
 
 This section deals with conditions relating to the sale of products by The Pet Meal to you.<br><br>
 
-8. Our contract<br><br>
+    <h2>8. Our contract<br><br></h2>
 
 Our contract will be on these terms and conditions to the exclusion of all other terms and conditions (including any terms and conditions which you purport to apply under any purchase order, confirmation email, specification or other document or transmission).<br><br>
 

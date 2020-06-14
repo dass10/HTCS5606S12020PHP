@@ -75,6 +75,11 @@ body {
 display: none;
     background-color: royalblue;
 }
+/*index page main contains*/
+#page1 #main .border:hover
+{
+    box-shadow: inset 0 0 0 25px #53a7ea;
+}
 
 
 /*shop by pet page*/

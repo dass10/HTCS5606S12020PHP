@@ -51,7 +51,7 @@ You also may not create and/or publish your own database that features substanti
 
 You must not use the Website in any way that causes, or is likely to cause, the Website or access to it to be interrupted, damaged or impaired in any way.<br><br>
 
-<h2>5. Your conduct<h2/>
+    <h2>5. Your conduct</h2>
 
 You may only purchase products from our Website if you are at least 18 years old.<br>
 

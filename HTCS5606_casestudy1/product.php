@@ -124,8 +124,6 @@ include_once "header.php";
 
                         <div class="item">
                             <img src="image/fishfd2.jpeg" height="150" width="150"/><br>
-
-
                             <h2>Bug Bites Cichlid Formula</h2>
                             <p>PRICE: $28.99</p>
                             <button class="add-to-cart" type="button">ADD TO CART</button>

@@ -26,7 +26,7 @@
 
 <div id="main">
 
-<div class="border box">
+<div class="border">
     New Zealand's No.1 Pet Food online Service With 3 Years of Experience.The Pet Meal across NZ has over 3 years of experience in providing  pet food.
     We are the No.1 online store for frozen,Wet and Dry dog and cat food,also offering a wide range of great quality pet food for Fish,Chicken,reptiles and small Animals.
     from market leader manufacturers.<br><br>

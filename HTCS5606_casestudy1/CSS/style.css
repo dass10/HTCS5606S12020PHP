@@ -294,6 +294,9 @@ span {
     border-color: blue;
     font-size: 25px;
     border-radius: 10px;
+    text-decoration: #0000cc;
+    text-shadow: #007bff;
+    text-align: inherit;
 }
 
 /*footer contains*/

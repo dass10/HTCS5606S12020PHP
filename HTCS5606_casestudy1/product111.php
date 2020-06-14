@@ -100,7 +100,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="image/DogRoll.jpeg" height="150" width="150"/>
+                    <img src="image/dogroll.jpeg" height="150" width="150"/>
                     <br>
                     <h2>Possyum Supreme Dog Roll</h2>
                     <p>PRICE: $6.99</p>

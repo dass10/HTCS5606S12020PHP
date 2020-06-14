@@ -82,7 +82,9 @@ display: none;
 }
 #page1 #main .border{
     font-family: "Bookman Old Style";
-    font-optical-sizing: auto;
+    font-size: medium;
+    margin: 20px;
+    padding: 20px;
 }
 
 /*shop by pet page*/

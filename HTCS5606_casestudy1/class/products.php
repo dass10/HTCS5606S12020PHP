@@ -1,12 +1,12 @@
 <?php
 /**
- * Class checkout
+ * Class Product
  * Author: Shweta Das
  * Date: 2020-06-09
  * Version: 1
  */
 
-class Checkout
+class Product
 {
     public $id;
     public $name;

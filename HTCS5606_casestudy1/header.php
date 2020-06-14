@@ -35,7 +35,7 @@
         <a href="storelocation.php">Store Location</a>
     </div>
     <div class="level1">
-        <a href="products.php">Products</a>
+        <a href="product.php">Products</a>
     </div>
 
     <div class="level1">

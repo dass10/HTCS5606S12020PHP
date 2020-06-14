@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="image/Kittenfd.jpeg" height="150" width="150"/><br>
+                    <img src="image/kittenfd.jpeg" height="150" width="150"/><br>
                     <h2>Royal Canin Second Age Kitten<br>Available in 2Kg,3Kg and 10Kg</h2>
                     <p>PRICE: $38.39 - $121.59</p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>

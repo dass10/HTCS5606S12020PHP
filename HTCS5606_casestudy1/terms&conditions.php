@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title>Terms & Conditions</title>
 </head>
-<body>
+<body id="page7">
 <?php
 include_once "header.php";
 ?>
 
 
-
+<div class="main">
 Terms & Conditions
 Conditions of Use & Sale
 Welcome to Thepetmeal.co.nz (the “Website”). This Website is owned and operated by Shweta Das, trading as The Pet Meal , a company registered in New Zealand  under company number 06060026<br>
@@ -368,7 +368,7 @@ Want Further Information?<br><br>
 
 This Privacy Notice is compliant with the Data Protection Act 1998 and the Privacy and Electronic Communications Regulations 2003.
 If you have any concerns or questions in relation to your privacy please e-mail us at sales@thepetmeal.co.nz<br><br>
-
+</div>
 <?php
 include_once "footer.php";
 ?>

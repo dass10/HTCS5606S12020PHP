@@ -289,7 +289,12 @@ span {
     overflow: hidden;
     text-align: center;
 }
-
+#page7 .main{
+    font-family: "Bookman Old Style";
+    border-color: blue;
+    font-size: 25px;
+    border-radius: 10px;
+}
 
 /*footer contains*/
 .footer {

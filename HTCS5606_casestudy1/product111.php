@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="image/WetCatFood.png" height="150" width="150"/><br>
+                    <img src="image/wetcatfood.png" height="150" width="150"/><br>
                     <h2>Grain Free Chicken Wet Cat Food</h2>
                     <p>PRICE: $45.99</p>
                     <button class="add-to-cart" type="button">ADD TO CART</button>

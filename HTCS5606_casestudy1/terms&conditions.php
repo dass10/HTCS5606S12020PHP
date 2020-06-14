@@ -39,7 +39,7 @@ Please refer to our Privacy Policy, Security Policy and Cookie Policy.<br>
 
 We will do our utmost to ensure that availability of the Website will be uninterrupted and that transmissions will be error-free. However, due to the nature of the Internet, this cannot be guaranteed. Also, your access to the Website may occasionally be suspended or restricted to allow for repairs, maintenance, or the introduction of new facilities or services. We will attempt to limit the frequency and duration of any such suspension or restriction.<br><br>
 
-<h2>4. Restriction on Use<br><br><h2/>
+    <h2>4. Restriction on Use<br><br></h2>
 
 The Pet Meal grants you access to this Website for your personal use but you are not authorised to download (other than page caching) or modify it, or any portion of it, except with the express written consent of The Pet Meal. You may not resale or make any commercial use of this Website or its contents; any collection and use of any product listings, descriptions, or prices; any derivative use of this Website or its contents; any downloading or copying of account information for the benefit of another merchant; or any use of data mining, robots, or similar data gathering and extraction tools.<br><br>
 
